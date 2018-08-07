@@ -1,0 +1,1704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07773C512115503E002700CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773C502115503E002700CC /* AppDelegate.m */; };
+		07773C572115503E002700CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07773C552115503E002700CC /* Main.storyboard */; };
+		07773C592115503F002700CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07773C582115503F002700CC /* Assets.xcassets */; };
+		07773C5C2115503F002700CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07773C5A2115503F002700CC /* LaunchScreen.storyboard */; };
+		07773C5F2115503F002700CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773C5E2115503F002700CC /* main.m */; };
+		07773C6921155040002700CC /* IMNIMDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773C6821155040002700CC /* IMNIMDemoTests.m */; };
+		07773C7421155040002700CC /* IMNIMDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773C7321155040002700CC /* IMNIMDemoUITests.m */; };
+		07773C8721155650002700CC /* IMMainTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773C8621155650002700CC /* IMMainTabController.m */; };
+		07773C9D211562DC002700CC /* IMService.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773C9C211562DC002700CC /* IMService.m */; };
+		07773CA121158469002700CC /* IMCustomNotificationDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773CA021158469002700CC /* IMCustomNotificationDB.m */; };
+		07773CA521159D10002700CC /* IMCustomNotificationObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773CA421159D10002700CC /* IMCustomNotificationObject.m */; };
+		07773CA82115A066002700CC /* IMFileLocationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773CA72115A066002700CC /* IMFileLocationHelper.m */; };
+		07773CAE2115C00F002700CC /* IMNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773CAD2115C00F002700CC /* IMNotificationCenter.m */; };
+		07773CB22115C1E4002700CC /* NIMKitEmoticon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 07773CB02115C1E4002700CC /* NIMKitEmoticon.bundle */; };
+		07773CB32115C1E4002700CC /* NIMKitResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 07773CB12115C1E4002700CC /* NIMKitResource.bundle */; };
+		07773CBD2115C1FC002700CC /* video_connect_chat_tip_sender.aac in Resources */ = {isa = PBXBuildFile; fileRef = 07773CB52115C1FC002700CC /* video_connect_chat_tip_sender.aac */; };
+		07773CBE2115C1FC002700CC /* video_chat_tip_OnCall.aac in Resources */ = {isa = PBXBuildFile; fileRef = 07773CB62115C1FC002700CC /* video_chat_tip_OnCall.aac */; };
+		07773CBF2115C1FC002700CC /* video_chat_tip_sender.aac in Resources */ = {isa = PBXBuildFile; fileRef = 07773CB72115C1FC002700CC /* video_chat_tip_sender.aac */; };
+		07773CC02115C1FC002700CC /* video_chat_tip_HangUp.aac in Resources */ = {isa = PBXBuildFile; fileRef = 07773CB82115C1FC002700CC /* video_chat_tip_HangUp.aac */; };
+		07773CC12115C1FC002700CC /* message.wav in Resources */ = {isa = PBXBuildFile; fileRef = 07773CB92115C1FC002700CC /* message.wav */; };
+		07773CC22115C1FC002700CC /* video_chat_tip_receiver.aac in Resources */ = {isa = PBXBuildFile; fileRef = 07773CBA2115C1FC002700CC /* video_chat_tip_receiver.aac */; };
+		07773CC32115C1FC002700CC /* video_chat_tip_onTimer.aac in Resources */ = {isa = PBXBuildFile; fileRef = 07773CBB2115C1FC002700CC /* video_chat_tip_onTimer.aac */; };
+		07773CC42115C1FC002700CC /* video_chat_push.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 07773CBC2115C1FC002700CC /* video_chat_push.mp3 */; };
+		07773CC72115C386002700CC /* IMAVNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773CC62115C386002700CC /* IMAVNotifier.m */; };
+		07773CCC2115CC3B002700CC /* IMRedPacketTipAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773CCB2115CC3B002700CC /* IMRedPacketTipAttachment.m */; };
+		07773CD02115D2D4002700CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07773CCF2115D2D3002700CC /* Images.xcassets */; };
+		07773CD32115D4A1002700CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773CD22115D4A1002700CC /* Foundation.framework */; };
+		07773CD52115D4A9002700CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773CD42115D4A9002700CC /* UIKit.framework */; };
+		07773CD72115D4B1002700CC /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773CD62115D4B0002700CC /* CoreText.framework */; };
+		07773CD92115D4B7002700CC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773CD82115D4B7002700CC /* CFNetwork.framework */; };
+		07773CDB2115D4CA002700CC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773CDA2115D4CA002700CC /* Security.framework */; };
+		07773D152115D5AA002700CC /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773D142115D5AA002700CC /* libc++.tbd */; };
+		07773D172115D5B3002700CC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773D162115D5B3002700CC /* libz.tbd */; };
+		07773D192115D5C2002700CC /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773D182115D5C2002700CC /* libsqlite3.0.tbd */; };
+		07773D1B2115D5CB002700CC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773D1A2115D5CB002700CC /* CoreMedia.framework */; };
+		07773D1D2115D5DE002700CC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773D1C2115D5DE002700CC /* AudioToolbox.framework */; };
+		07773D1F2115D5F6002700CC /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773D1E2115D5F6002700CC /* VideoToolbox.framework */; };
+		07773D212115D602002700CC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773D202115D602002700CC /* CoreTelephony.framework */; };
+		07773D232115D60A002700CC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773D222115D60A002700CC /* MapKit.framework */; };
+		07773D252115D613002700CC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773D242115D612002700CC /* AVFoundation.framework */; };
+		07773D272115D61D002700CC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773D262115D61C002700CC /* MobileCoreServices.framework */; };
+		07773D292115D623002700CC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773D282115D623002700CC /* SystemConfiguration.framework */; };
+		07773D2B2115D64D002700CC /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773D2A2115D64D002700CC /* CoreMotion.framework */; };
+		07773D2D2115D65B002700CC /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773D2C2115D65B002700CC /* libstdc++.6.tbd */; };
+		07773D2F2115D66B002700CC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773D2E2115D66B002700CC /* QuartzCore.framework */; };
+		07773D312115D773002700CC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773D302115D773002700CC /* CoreLocation.framework */; };
+		07773D342115D806002700CC /* NIMKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773D332115D806002700CC /* NIMKit.m */; };
+		07773D3E2115E1C7002700CC /* NIMMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773D3D2115E1C7002700CC /* NIMMessageModel.m */; };
+		07773D412115EF29002700CC /* NIMCellLayoutConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773D402115EF29002700CC /* NIMCellLayoutConfig.m */; };
+		07773D442115F10B002700CC /* NIMKitInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773D432115F10B002700CC /* NIMKitInfo.m */; };
+		07773D472115F38B002700CC /* NIMKitInfoFetchOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773D462115F38B002700CC /* NIMKitInfoFetchOption.m */; };
+		07773D4B2116A831002700CC /* NIMKitSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773D4A2116A831002700CC /* NIMKitSetting.m */; };
+		07773D4F2116AA5C002700CC /* UIImage+NIMKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773D4E2116AA5C002700CC /* UIImage+NIMKit.m */; };
+		07773D552116B5E6002700CC /* NIMKitDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773D542116B5E6002700CC /* NIMKitDevice.m */; };
+		07773D5A2116BCD9002700CC /* NIMkitConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773D592116BCD9002700CC /* NIMkitConfig.m */; };
+		07773D5D2116C448002700CC /* NIMMediaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773D5C2116C448002700CC /* NIMMediaItem.m */; };
+		07773D612116D2E3002700CC /* NIMKitDataProviderImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773D602116D2E3002700CC /* NIMKitDataProviderImpl.m */; };
+		07773D642117007E002700CC /* NIMKitIndependentModeExtraInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773D632117007E002700CC /* NIMKitIndependentModeExtraInfo.m */; };
+		07773D682117E239002700CC /* NIMSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773D672117E239002700CC /* NIMSessionViewController.m */; };
+		07773D702117EF71002700CC /* NIMSessionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773D6F2117EF71002700CC /* NIMSessionListViewController.m */; };
+		07773D732117EFD3002700CC /* IMSessionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773D722117EFD3002700CC /* IMSessionListViewController.m */; };
+		07773D772117F4C4002700CC /* IMContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773D762117F4C4002700CC /* IMContactViewController.m */; };
+		07773D7B2117F58E002700CC /* IMChatroomListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773D7A2117F58E002700CC /* IMChatroomListViewController.m */; };
+		07773D7F2117F98D002700CC /* IMSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773D7E2117F98D002700CC /* IMSettingViewController.m */; };
+		07773DAB211816E3002700CC /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 07773D82211816E3002700CC /* AlipaySDK.bundle */; };
+		07773DAC211816E3002700CC /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773D83211816E3002700CC /* AlipaySDK.framework */; };
+		07773DAD211816E3002700CC /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 07773D88211816E3002700CC /* README.txt */; };
+		07773DAE211816E3002700CC /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773D8A211816E3002700CC /* libWeChatSDK.a */; };
+		07773DAF211816E3002700CC /* SPaySDKResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 07773D9F211816E3002700CC /* SPaySDKResource.bundle */; };
+		07773DB0211816E3002700CC /* libSPaySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773DA0211816E3002700CC /* libSPaySDK.a */; };
+		07773DB1211816E3002700CC /* WalletResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 07773DA2211816E3002700CC /* WalletResource.bundle */; };
+		07773DB2211816E3002700CC /* JRMFSington.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773DA3211816E3002700CC /* JRMFSington.m */; };
+		07773DB3211816E3002700CC /* jrmf.cer in Resources */ = {isa = PBXBuildFile; fileRef = 07773DA4211816E3002700CC /* jrmf.cer */; };
+		07773DB4211816E3002700CC /* JrmfPacketKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773DA5211816E3002700CC /* JrmfPacketKit.framework */; };
+		07773DB5211816E3002700CC /* JYangToolKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773DA6211816E3002700CC /* JYangToolKit.framework */; };
+		07773DB6211816E3002700CC /* JrmfWalletKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773DA8211816E3002700CC /* JrmfWalletKit.framework */; };
+		07773DB7211816E3002700CC /* JResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 07773DAA211816E3002700CC /* JResource.bundle */; };
+		07773DD2211819C5002700CC /* NVS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773DCD211819C5002700CC /* NVS.framework */; };
+		07773DD3211819C5002700CC /* NMCVideoFilter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 07773DCF211819C5002700CC /* NMCVideoFilter.bundle */; };
+		07773DD521181A0F002700CC /* NIMAVChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773DD0211819C5002700CC /* NIMAVChat.framework */; };
+		07773DDA21181DF0002700CC /* NIMSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773DCB211819C5002700CC /* NIMSDK.framework */; };
+		07773DDB21181E62002700CC /* NIMSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773DCB211819C5002700CC /* NIMSDK.framework */; };
+		07773DDC21181E62002700CC /* NIMSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07773DCB211819C5002700CC /* NIMSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07773DDD21181E62002700CC /* NVS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773DCD211819C5002700CC /* NVS.framework */; };
+		07773DDE21181E62002700CC /* NVS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07773DCD211819C5002700CC /* NVS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07773DDF21181E62002700CC /* NIMAVChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07773DD0211819C5002700CC /* NIMAVChat.framework */; };
+		07773DE021181E62002700CC /* NIMAVChat.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07773DD0211819C5002700CC /* NIMAVChat.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07773DE42118212E002700CC /* IMSDKConfigDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773DE32118212E002700CC /* IMSDKConfigDelegate.m */; };
+		07773DE721182184002700CC /* IMBundleSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773DE621182184002700CC /* IMBundleSetting.m */; };
+		07773DE921182D37002700CC /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 07773DE821182D37002700CC /* Settings.bundle */; };
+		07773DEC21183129002700CC /* IMDemoConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773DEB21183129002700CC /* IMDemoConfig.m */; };
+		07773DF02118370E002700CC /* IMLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773DEF2118370E002700CC /* IMLoginManager.m */; };
+		07773DF9211848BB002700CC /* IMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773DF7211848BB002700CC /* IMLoginViewController.m */; };
+		07773DFA211848BB002700CC /* IMLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07773DF8211848BB002700CC /* IMLoginViewController.xib */; };
+		07773DFE21184955002700CC /* IMRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773DFC21184955002700CC /* IMRegisterViewController.m */; };
+		07773DFF21184955002700CC /* IMRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07773DFD21184955002700CC /* IMRegisterViewController.xib */; };
+		07773E0321184CFA002700CC /* UIView+IM.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773E0221184CFA002700CC /* UIView+IM.m */; };
+		07773E0621199031002700CC /* UIActionSheet+IMBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773E0521199031002700CC /* UIActionSheet+IMBlock.m */; };
+		07773E0B211991D6002700CC /* IMLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773E0A211991D6002700CC /* IMLogManager.m */; };
+		07773E12211992C6002700CC /* IMLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773E10211992C6002700CC /* IMLogViewController.m */; };
+		07773E13211992C6002700CC /* IMLogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07773E11211992C6002700CC /* IMLogViewController.xib */; };
+		07773E1621199566002700CC /* NSString+IM.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773E1521199566002700CC /* NSString+IM.m */; };
+		07773E1A21199F92002700CC /* IMDemoRegisterTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773E1921199F92002700CC /* IMDemoRegisterTask.m */; };
+		07773E1E2119A207002700CC /* NSDictionary+IMJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773E1D2119A207002700CC /* NSDictionary+IMJson.m */; };
+		07773E212119A401002700CC /* IMDemoFetchChatroomTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773E202119A401002700CC /* IMDemoFetchChatroomTask.m */; };
+		07773E272119A50F002700CC /* IMChatroomMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773E262119A50F002700CC /* IMChatroomMaker.m */; };
+		07773E2A2119A623002700CC /* IMDemoService.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773E292119A623002700CC /* IMDemoService.m */; };
+		07773E2D2119D8D6002700CC /* IMClientUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773E2C2119D8D6002700CC /* IMClientUtil.m */; };
+		07773E302119E00B002700CC /* IMSessionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773E2F2119E00B002700CC /* IMSessionUtil.m */; };
+		7D92CBFDA4C0BFAC7A8053FF /* libPods-IMNIMDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC0459A35EFAB5734B5C7A3 /* libPods-IMNIMDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07773C6521155040002700CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07773C442115503E002700CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07773C4B2115503E002700CC;
+			remoteInfo = IMNIMDemo;
+		};
+		07773C7021155040002700CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07773C442115503E002700CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07773C4B2115503E002700CC;
+			remoteInfo = IMNIMDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		07773DE121181E62002700CC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				07773DDE21181E62002700CC /* NVS.framework in Embed Frameworks */,
+				07773DE021181E62002700CC /* NIMAVChat.framework in Embed Frameworks */,
+				07773DDC21181E62002700CC /* NIMSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		07773C4C2115503E002700CC /* IMNIMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMNIMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07773C4F2115503E002700CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07773C502115503E002700CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07773C562115503E002700CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07773C582115503F002700CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07773C5B2115503F002700CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07773C5D2115503F002700CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07773C5E2115503F002700CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07773C6421155040002700CC /* IMNIMDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMNIMDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07773C6821155040002700CC /* IMNIMDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMNIMDemoTests.m; sourceTree = "<group>"; };
+		07773C6A21155040002700CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07773C6F21155040002700CC /* IMNIMDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMNIMDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07773C7321155040002700CC /* IMNIMDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMNIMDemoUITests.m; sourceTree = "<group>"; };
+		07773C7521155040002700CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07773C8521155650002700CC /* IMMainTabController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMMainTabController.h; sourceTree = "<group>"; };
+		07773C8621155650002700CC /* IMMainTabController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMMainTabController.m; sourceTree = "<group>"; };
+		07773C9621155D86002700CC /* IMNIMDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMNIMDemo.pch; sourceTree = "<group>"; };
+		07773C9B211562DC002700CC /* IMService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMService.h; sourceTree = "<group>"; };
+		07773C9C211562DC002700CC /* IMService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMService.m; sourceTree = "<group>"; };
+		07773C9E21156748002700CC /* IMGlobalMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMGlobalMacro.h; sourceTree = "<group>"; };
+		07773C9F21158469002700CC /* IMCustomNotificationDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMCustomNotificationDB.h; sourceTree = "<group>"; };
+		07773CA021158469002700CC /* IMCustomNotificationDB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMCustomNotificationDB.m; sourceTree = "<group>"; };
+		07773CA321159D10002700CC /* IMCustomNotificationObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMCustomNotificationObject.h; sourceTree = "<group>"; };
+		07773CA421159D10002700CC /* IMCustomNotificationObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMCustomNotificationObject.m; sourceTree = "<group>"; };
+		07773CA62115A066002700CC /* IMFileLocationHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMFileLocationHelper.h; sourceTree = "<group>"; };
+		07773CA72115A066002700CC /* IMFileLocationHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMFileLocationHelper.m; sourceTree = "<group>"; };
+		07773CAC2115C00F002700CC /* IMNotificationCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMNotificationCenter.h; sourceTree = "<group>"; };
+		07773CAD2115C00F002700CC /* IMNotificationCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMNotificationCenter.m; sourceTree = "<group>"; };
+		07773CB02115C1E4002700CC /* NIMKitEmoticon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NIMKitEmoticon.bundle; sourceTree = "<group>"; };
+		07773CB12115C1E4002700CC /* NIMKitResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NIMKitResource.bundle; sourceTree = "<group>"; };
+		07773CB52115C1FC002700CC /* video_connect_chat_tip_sender.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = video_connect_chat_tip_sender.aac; sourceTree = "<group>"; };
+		07773CB62115C1FC002700CC /* video_chat_tip_OnCall.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = video_chat_tip_OnCall.aac; sourceTree = "<group>"; };
+		07773CB72115C1FC002700CC /* video_chat_tip_sender.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = video_chat_tip_sender.aac; sourceTree = "<group>"; };
+		07773CB82115C1FC002700CC /* video_chat_tip_HangUp.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = video_chat_tip_HangUp.aac; sourceTree = "<group>"; };
+		07773CB92115C1FC002700CC /* message.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = message.wav; sourceTree = "<group>"; };
+		07773CBA2115C1FC002700CC /* video_chat_tip_receiver.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = video_chat_tip_receiver.aac; sourceTree = "<group>"; };
+		07773CBB2115C1FC002700CC /* video_chat_tip_onTimer.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = video_chat_tip_onTimer.aac; sourceTree = "<group>"; };
+		07773CBC2115C1FC002700CC /* video_chat_push.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = video_chat_push.mp3; sourceTree = "<group>"; };
+		07773CC52115C386002700CC /* IMAVNotifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMAVNotifier.h; sourceTree = "<group>"; };
+		07773CC62115C386002700CC /* IMAVNotifier.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMAVNotifier.m; sourceTree = "<group>"; };
+		07773CCA2115CC3B002700CC /* IMRedPacketTipAttachment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMRedPacketTipAttachment.h; sourceTree = "<group>"; };
+		07773CCB2115CC3B002700CC /* IMRedPacketTipAttachment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMRedPacketTipAttachment.m; sourceTree = "<group>"; };
+		07773CCE2115CC9D002700CC /* IMCustomAttachmentInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMCustomAttachmentInfo.h; sourceTree = "<group>"; };
+		07773CCF2115D2D3002700CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07773CD22115D4A1002700CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07773CD42115D4A9002700CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07773CD62115D4B0002700CC /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		07773CD82115D4B7002700CC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		07773CDA2115D4CA002700CC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		07773D142115D5AA002700CC /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		07773D162115D5B3002700CC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		07773D182115D5C2002700CC /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		07773D1A2115D5CB002700CC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		07773D1C2115D5DE002700CC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		07773D1E2115D5F6002700CC /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		07773D202115D602002700CC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		07773D222115D60A002700CC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		07773D242115D612002700CC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		07773D262115D61C002700CC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		07773D282115D623002700CC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		07773D2A2115D64D002700CC /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		07773D2C2115D65B002700CC /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		07773D2E2115D66B002700CC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		07773D302115D773002700CC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		07773D322115D806002700CC /* NIMKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMKit.h; sourceTree = "<group>"; };
+		07773D332115D806002700CC /* NIMKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMKit.m; sourceTree = "<group>"; };
+		07773D3A2115DE36002700CC /* NIMCellConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMCellConfig.h; sourceTree = "<group>"; };
+		07773D3C2115E1C7002700CC /* NIMMessageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMMessageModel.h; sourceTree = "<group>"; };
+		07773D3D2115E1C7002700CC /* NIMMessageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMMessageModel.m; sourceTree = "<group>"; };
+		07773D3F2115EF29002700CC /* NIMCellLayoutConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMCellLayoutConfig.h; sourceTree = "<group>"; };
+		07773D402115EF29002700CC /* NIMCellLayoutConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMCellLayoutConfig.m; sourceTree = "<group>"; };
+		07773D422115F10B002700CC /* NIMKitInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMKitInfo.h; sourceTree = "<group>"; };
+		07773D432115F10B002700CC /* NIMKitInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMKitInfo.m; sourceTree = "<group>"; };
+		07773D452115F38B002700CC /* NIMKitInfoFetchOption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMKitInfoFetchOption.h; sourceTree = "<group>"; };
+		07773D462115F38B002700CC /* NIMKitInfoFetchOption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMKitInfoFetchOption.m; sourceTree = "<group>"; };
+		07773D492116A831002700CC /* NIMKitSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMKitSetting.h; sourceTree = "<group>"; };
+		07773D4A2116A831002700CC /* NIMKitSetting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMKitSetting.m; sourceTree = "<group>"; };
+		07773D4D2116AA5C002700CC /* UIImage+NIMKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+NIMKit.h"; sourceTree = "<group>"; };
+		07773D4E2116AA5C002700CC /* UIImage+NIMKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NIMKit.m"; sourceTree = "<group>"; };
+		07773D512116AC49002700CC /* NIMInputEmoticonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMInputEmoticonDefine.h; sourceTree = "<group>"; };
+		07773D532116B5E6002700CC /* NIMKitDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMKitDevice.h; sourceTree = "<group>"; };
+		07773D542116B5E6002700CC /* NIMKitDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMKitDevice.m; sourceTree = "<group>"; };
+		07773D562116B6AB002700CC /* NIMGlobalMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMGlobalMacro.h; sourceTree = "<group>"; };
+		07773D582116BCD9002700CC /* NIMkitConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMkitConfig.h; sourceTree = "<group>"; };
+		07773D592116BCD9002700CC /* NIMkitConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMkitConfig.m; sourceTree = "<group>"; };
+		07773D5B2116C448002700CC /* NIMMediaItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMMediaItem.h; sourceTree = "<group>"; };
+		07773D5C2116C448002700CC /* NIMMediaItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMMediaItem.m; sourceTree = "<group>"; };
+		07773D5E2116D0E3002700CC /* NIMKitDataProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMKitDataProvider.h; sourceTree = "<group>"; };
+		07773D5F2116D2E3002700CC /* NIMKitDataProviderImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMKitDataProviderImpl.h; sourceTree = "<group>"; };
+		07773D602116D2E3002700CC /* NIMKitDataProviderImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMKitDataProviderImpl.m; sourceTree = "<group>"; };
+		07773D622117007E002700CC /* NIMKitIndependentModeExtraInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMKitIndependentModeExtraInfo.h; sourceTree = "<group>"; };
+		07773D632117007E002700CC /* NIMKitIndependentModeExtraInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMKitIndependentModeExtraInfo.m; sourceTree = "<group>"; };
+		07773D662117E239002700CC /* NIMSessionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMSessionViewController.h; sourceTree = "<group>"; };
+		07773D672117E239002700CC /* NIMSessionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMSessionViewController.m; sourceTree = "<group>"; };
+		07773D6A2117E348002700CC /* NIMSessionConfigurateProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMSessionConfigurateProtocol.h; sourceTree = "<group>"; };
+		07773D6E2117EF71002700CC /* NIMSessionListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMSessionListViewController.h; sourceTree = "<group>"; };
+		07773D6F2117EF71002700CC /* NIMSessionListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMSessionListViewController.m; sourceTree = "<group>"; };
+		07773D712117EFD3002700CC /* IMSessionListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMSessionListViewController.h; sourceTree = "<group>"; };
+		07773D722117EFD3002700CC /* IMSessionListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMSessionListViewController.m; sourceTree = "<group>"; };
+		07773D752117F4C4002700CC /* IMContactViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMContactViewController.h; sourceTree = "<group>"; };
+		07773D762117F4C4002700CC /* IMContactViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMContactViewController.m; sourceTree = "<group>"; };
+		07773D792117F58E002700CC /* IMChatroomListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMChatroomListViewController.h; sourceTree = "<group>"; };
+		07773D7A2117F58E002700CC /* IMChatroomListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMChatroomListViewController.m; sourceTree = "<group>"; };
+		07773D7D2117F98D002700CC /* IMSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMSettingViewController.h; sourceTree = "<group>"; };
+		07773D7E2117F98D002700CC /* IMSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMSettingViewController.m; sourceTree = "<group>"; };
+		07773D82211816E3002700CC /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		07773D83211816E3002700CC /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		07773D86211816E3002700CC /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		07773D87211816E3002700CC /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		07773D88211816E3002700CC /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		07773D89211816E3002700CC /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		07773D8A211816E3002700CC /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		07773D8D211816E3002700CC /* SPayClientPayHelpModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPayClientPayHelpModel.h; sourceTree = "<group>"; };
+		07773D8E211816E3002700CC /* SPayClientXMLWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPayClientXMLWriter.h; sourceTree = "<group>"; };
+		07773D8F211816E3002700CC /* NSDictionary+SPayUtilsExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SPayUtilsExtras.h"; sourceTree = "<group>"; };
+		07773D90211816E3002700CC /* SPayClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPayClient.h; sourceTree = "<group>"; };
+		07773D91211816E3002700CC /* SPayClientQQConfigModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPayClientQQConfigModel.h; sourceTree = "<group>"; };
+		07773D92211816E3002700CC /* SPBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaseModel.h; sourceTree = "<group>"; };
+		07773D93211816E3002700CC /* SPayClientPaySuccessModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPayClientPaySuccessModel.h; sourceTree = "<group>"; };
+		07773D94211816E3002700CC /* SPayClientConstEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPayClientConstEnum.h; sourceTree = "<group>"; };
+		07773D95211816E3002700CC /* SPayClientPaySuccessDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPayClientPaySuccessDetailModel.h; sourceTree = "<group>"; };
+		07773D96211816E3002700CC /* NSString+SPayUtilsExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SPayUtilsExtras.h"; sourceTree = "<group>"; };
+		07773D97211816E3002700CC /* SPayClientPayDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPayClientPayDetailModel.h; sourceTree = "<group>"; };
+		07773D98211816E3002700CC /* SPayClientHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPayClientHeaders.h; sourceTree = "<group>"; };
+		07773D99211816E3002700CC /* SPayClientAlipayConfigModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPayClientAlipayConfigModel.h; sourceTree = "<group>"; };
+		07773D9A211816E3002700CC /* SPayClientPayAppPayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPayClientPayAppPayManager.h; sourceTree = "<group>"; };
+		07773D9B211816E3002700CC /* SPayClientWechatConfigModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPayClientWechatConfigModel.h; sourceTree = "<group>"; };
+		07773D9C211816E3002700CC /* SPayClientPayStateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPayClientPayStateModel.h; sourceTree = "<group>"; };
+		07773D9D211816E3002700CC /* SPayClientWapPayDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPayClientWapPayDetailModel.h; sourceTree = "<group>"; };
+		07773D9E211816E3002700CC /* SPayClientReverseScanPayDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPayClientReverseScanPayDetailModel.h; sourceTree = "<group>"; };
+		07773D9F211816E3002700CC /* SPaySDKResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SPaySDKResource.bundle; sourceTree = "<group>"; };
+		07773DA0211816E3002700CC /* libSPaySDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSPaySDK.a; sourceTree = "<group>"; };
+		07773DA2211816E3002700CC /* WalletResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WalletResource.bundle; sourceTree = "<group>"; };
+		07773DA3211816E3002700CC /* JRMFSington.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRMFSington.m; sourceTree = "<group>"; };
+		07773DA4211816E3002700CC /* jrmf.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = jrmf.cer; sourceTree = "<group>"; };
+		07773DA5211816E3002700CC /* JrmfPacketKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JrmfPacketKit.framework; sourceTree = "<group>"; };
+		07773DA6211816E3002700CC /* JYangToolKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JYangToolKit.framework; sourceTree = "<group>"; };
+		07773DA7211816E3002700CC /* JRMFHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRMFHeader.h; sourceTree = "<group>"; };
+		07773DA8211816E3002700CC /* JrmfWalletKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JrmfWalletKit.framework; sourceTree = "<group>"; };
+		07773DA9211816E3002700CC /* JRMFSington.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRMFSington.h; sourceTree = "<group>"; };
+		07773DAA211816E3002700CC /* JResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JResource.bundle; sourceTree = "<group>"; };
+		07773DC7211819AC002700CC /* NIMAVChat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NIMAVChat.framework; path = IMNIMDemo/Vendors/NIMAVChat/NIMAVChat.framework; sourceTree = "<group>"; };
+		07773DCB211819C5002700CC /* NIMSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NIMSDK.framework; sourceTree = "<group>"; };
+		07773DCD211819C5002700CC /* NVS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NVS.framework; sourceTree = "<group>"; };
+		07773DCF211819C5002700CC /* NMCVideoFilter.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NMCVideoFilter.bundle; sourceTree = "<group>"; };
+		07773DD0211819C5002700CC /* NIMAVChat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NIMAVChat.framework; sourceTree = "<group>"; };
+		07773DE22118212E002700CC /* IMSDKConfigDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMSDKConfigDelegate.h; sourceTree = "<group>"; };
+		07773DE32118212E002700CC /* IMSDKConfigDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMSDKConfigDelegate.m; sourceTree = "<group>"; };
+		07773DE521182184002700CC /* IMBundleSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMBundleSetting.h; sourceTree = "<group>"; };
+		07773DE621182184002700CC /* IMBundleSetting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMBundleSetting.m; sourceTree = "<group>"; };
+		07773DE821182D37002700CC /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		07773DEA21183129002700CC /* IMDemoConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMDemoConfig.h; sourceTree = "<group>"; };
+		07773DEB21183129002700CC /* IMDemoConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMDemoConfig.m; sourceTree = "<group>"; };
+		07773DEE2118370E002700CC /* IMLoginManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMLoginManager.h; sourceTree = "<group>"; };
+		07773DEF2118370E002700CC /* IMLoginManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMLoginManager.m; sourceTree = "<group>"; };
+		07773DF6211848BB002700CC /* IMLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMLoginViewController.h; sourceTree = "<group>"; };
+		07773DF7211848BB002700CC /* IMLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMLoginViewController.m; sourceTree = "<group>"; };
+		07773DF8211848BB002700CC /* IMLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IMLoginViewController.xib; sourceTree = "<group>"; };
+		07773DFB21184955002700CC /* IMRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMRegisterViewController.h; sourceTree = "<group>"; };
+		07773DFC21184955002700CC /* IMRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMRegisterViewController.m; sourceTree = "<group>"; };
+		07773DFD21184955002700CC /* IMRegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IMRegisterViewController.xib; sourceTree = "<group>"; };
+		07773E0121184CFA002700CC /* UIView+IM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+IM.h"; sourceTree = "<group>"; };
+		07773E0221184CFA002700CC /* UIView+IM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+IM.m"; sourceTree = "<group>"; };
+		07773E0421199031002700CC /* UIActionSheet+IMBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+IMBlock.h"; sourceTree = "<group>"; };
+		07773E0521199031002700CC /* UIActionSheet+IMBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+IMBlock.m"; sourceTree = "<group>"; };
+		07773E09211991D6002700CC /* IMLogManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMLogManager.h; sourceTree = "<group>"; };
+		07773E0A211991D6002700CC /* IMLogManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMLogManager.m; sourceTree = "<group>"; };
+		07773E0F211992C6002700CC /* IMLogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMLogViewController.h; sourceTree = "<group>"; };
+		07773E10211992C6002700CC /* IMLogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMLogViewController.m; sourceTree = "<group>"; };
+		07773E11211992C6002700CC /* IMLogViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IMLogViewController.xib; sourceTree = "<group>"; };
+		07773E1421199566002700CC /* NSString+IM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+IM.h"; sourceTree = "<group>"; };
+		07773E1521199566002700CC /* NSString+IM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+IM.m"; sourceTree = "<group>"; };
+		07773E1821199F92002700CC /* IMDemoRegisterTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMDemoRegisterTask.h; sourceTree = "<group>"; };
+		07773E1921199F92002700CC /* IMDemoRegisterTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMDemoRegisterTask.m; sourceTree = "<group>"; };
+		07773E1B21199FC3002700CC /* IMDemoServiceTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMDemoServiceTask.h; sourceTree = "<group>"; };
+		07773E1C2119A207002700CC /* NSDictionary+IMJson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+IMJson.h"; sourceTree = "<group>"; };
+		07773E1D2119A207002700CC /* NSDictionary+IMJson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+IMJson.m"; sourceTree = "<group>"; };
+		07773E1F2119A401002700CC /* IMDemoFetchChatroomTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMDemoFetchChatroomTask.h; sourceTree = "<group>"; };
+		07773E202119A401002700CC /* IMDemoFetchChatroomTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMDemoFetchChatroomTask.m; sourceTree = "<group>"; };
+		07773E252119A50F002700CC /* IMChatroomMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMChatroomMaker.h; sourceTree = "<group>"; };
+		07773E262119A50F002700CC /* IMChatroomMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMChatroomMaker.m; sourceTree = "<group>"; };
+		07773E282119A623002700CC /* IMDemoService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMDemoService.h; sourceTree = "<group>"; };
+		07773E292119A623002700CC /* IMDemoService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMDemoService.m; sourceTree = "<group>"; };
+		07773E2B2119D8D6002700CC /* IMClientUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMClientUtil.h; sourceTree = "<group>"; };
+		07773E2C2119D8D6002700CC /* IMClientUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMClientUtil.m; sourceTree = "<group>"; };
+		07773E2E2119E00B002700CC /* IMSessionUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMSessionUtil.h; sourceTree = "<group>"; };
+		07773E2F2119E00B002700CC /* IMSessionUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMSessionUtil.m; sourceTree = "<group>"; };
+		0CC0459A35EFAB5734B5C7A3 /* libPods-IMNIMDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IMNIMDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4D8AA08258784E98C44423 /* Pods-IMNIMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMNIMDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IMNIMDemo/Pods-IMNIMDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D7857636BB46479E857CA6E2 /* Pods-IMNIMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMNIMDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IMNIMDemo/Pods-IMNIMDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07773C492115503E002700CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07773DDD21181E62002700CC /* NVS.framework in Frameworks */,
+				07773DDB21181E62002700CC /* NIMSDK.framework in Frameworks */,
+				07773DDA21181DF0002700CC /* NIMSDK.framework in Frameworks */,
+				07773DD521181A0F002700CC /* NIMAVChat.framework in Frameworks */,
+				07773DD2211819C5002700CC /* NVS.framework in Frameworks */,
+				07773CD32115D4A1002700CC /* Foundation.framework in Frameworks */,
+				07773CD52115D4A9002700CC /* UIKit.framework in Frameworks */,
+				07773DDF21181E62002700CC /* NIMAVChat.framework in Frameworks */,
+				07773CD72115D4B1002700CC /* CoreText.framework in Frameworks */,
+				07773D2F2115D66B002700CC /* QuartzCore.framework in Frameworks */,
+				07773CD92115D4B7002700CC /* CFNetwork.framework in Frameworks */,
+				07773DB5211816E3002700CC /* JYangToolKit.framework in Frameworks */,
+				07773CDB2115D4CA002700CC /* Security.framework in Frameworks */,
+				07773DAE211816E3002700CC /* libWeChatSDK.a in Frameworks */,
+				07773D2D2115D65B002700CC /* libstdc++.6.tbd in Frameworks */,
+				07773D2B2115D64D002700CC /* CoreMotion.framework in Frameworks */,
+				07773D172115D5B3002700CC /* libz.tbd in Frameworks */,
+				07773D152115D5AA002700CC /* libc++.tbd in Frameworks */,
+				07773D192115D5C2002700CC /* libsqlite3.0.tbd in Frameworks */,
+				07773D1F2115D5F6002700CC /* VideoToolbox.framework in Frameworks */,
+				07773D312115D773002700CC /* CoreLocation.framework in Frameworks */,
+				07773D1B2115D5CB002700CC /* CoreMedia.framework in Frameworks */,
+				07773D1D2115D5DE002700CC /* AudioToolbox.framework in Frameworks */,
+				07773DB4211816E3002700CC /* JrmfPacketKit.framework in Frameworks */,
+				07773D212115D602002700CC /* CoreTelephony.framework in Frameworks */,
+				07773DB6211816E3002700CC /* JrmfWalletKit.framework in Frameworks */,
+				07773DAC211816E3002700CC /* AlipaySDK.framework in Frameworks */,
+				07773DB0211816E3002700CC /* libSPaySDK.a in Frameworks */,
+				07773D292115D623002700CC /* SystemConfiguration.framework in Frameworks */,
+				07773D272115D61D002700CC /* MobileCoreServices.framework in Frameworks */,
+				07773D252115D613002700CC /* AVFoundation.framework in Frameworks */,
+				07773D232115D60A002700CC /* MapKit.framework in Frameworks */,
+				7D92CBFDA4C0BFAC7A8053FF /* libPods-IMNIMDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07773C6121155040002700CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07773C6C21155040002700CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07773C432115503E002700CC = {
+			isa = PBXGroup;
+			children = (
+				07773C4E2115503E002700CC /* IMNIMDemo */,
+				07773C6721155040002700CC /* IMNIMDemoTests */,
+				07773C7221155040002700CC /* IMNIMDemoUITests */,
+				07773C4D2115503E002700CC /* Products */,
+				63238FA54A34A7A14342AFF6 /* Pods */,
+				0C5BBB51C04894EFC82FC4EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07773C4D2115503E002700CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07773C4C2115503E002700CC /* IMNIMDemo.app */,
+				07773C6421155040002700CC /* IMNIMDemoTests.xctest */,
+				07773C6F21155040002700CC /* IMNIMDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07773C4E2115503E002700CC /* IMNIMDemo */ = {
+			isa = PBXGroup;
+			children = (
+				07773DC9211819C5002700CC /* Vendors */,
+				07773CD12115D373002700CC /* NIMKit */,
+				07773CCF2115D2D3002700CC /* Images.xcassets */,
+				07773CB42115C1FC002700CC /* Sounds */,
+				07773CAF2115C1C0002700CC /* Resources */,
+				07773C9421155D5F002700CC /* Extension */,
+				07773C82211555F0002700CC /* Class */,
+				07773C552115503E002700CC /* Main.storyboard */,
+				07773C582115503F002700CC /* Assets.xcassets */,
+				07773C5A2115503F002700CC /* LaunchScreen.storyboard */,
+				07773C5D2115503F002700CC /* Info.plist */,
+				07773C5E2115503F002700CC /* main.m */,
+				07773DE821182D37002700CC /* Settings.bundle */,
+			);
+			path = IMNIMDemo;
+			sourceTree = "<group>";
+		};
+		07773C6721155040002700CC /* IMNIMDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				07773C6821155040002700CC /* IMNIMDemoTests.m */,
+				07773C6A21155040002700CC /* Info.plist */,
+			);
+			path = IMNIMDemoTests;
+			sourceTree = "<group>";
+		};
+		07773C7221155040002700CC /* IMNIMDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07773C7321155040002700CC /* IMNIMDemoUITests.m */,
+				07773C7521155040002700CC /* Info.plist */,
+			);
+			path = IMNIMDemoUITests;
+			sourceTree = "<group>";
+		};
+		07773C8121155088002700CC /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				07773C4F2115503E002700CC /* AppDelegate.h */,
+				07773C502115503E002700CC /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		07773C82211555F0002700CC /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				07773E1721199F60002700CC /* Services */,
+				07773E0021184CE4002700CC /* Category */,
+				07773D80211816E3002700CC /* Vendors */,
+				07773C9A211562B3002700CC /* Util */,
+				07773C972115622E002700CC /* Session */,
+				07773C83211555FF002700CC /* Common */,
+				07773C8121155088002700CC /* AppDelegate */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		07773C83211555FF002700CC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				07773C8421155608002700CC /* Controller */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		07773C8421155608002700CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				07773C8521155650002700CC /* IMMainTabController.h */,
+				07773C8621155650002700CC /* IMMainTabController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		07773C9421155D5F002700CC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				07773C9521155D66002700CC /* Macro */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		07773C9521155D66002700CC /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				07773C9621155D86002700CC /* IMNIMDemo.pch */,
+				07773C9E21156748002700CC /* IMGlobalMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		07773C972115622E002700CC /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				07773DED211836FA002700CC /* Login */,
+				07773D7C2117F978002700CC /* Setting */,
+				07773D782117F572002700CC /* ChatRoom */,
+				07773D742117F4A4002700CC /* Contact */,
+				07773D6B2117EEF9002700CC /* SessionList */,
+				07773CC82115CC15002700CC /* Object */,
+				07773C9821156236002700CC /* Notification */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		07773C9821156236002700CC /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				07773CA22115848D002700CC /* Model */,
+				07773C9921156247002700CC /* DB */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		07773C9921156247002700CC /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				07773C9F21158469002700CC /* IMCustomNotificationDB.h */,
+				07773CA021158469002700CC /* IMCustomNotificationDB.m */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		07773C9A211562B3002700CC /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				07773C9B211562DC002700CC /* IMService.h */,
+				07773C9C211562DC002700CC /* IMService.m */,
+				07773CA62115A066002700CC /* IMFileLocationHelper.h */,
+				07773CA72115A066002700CC /* IMFileLocationHelper.m */,
+				07773CAC2115C00F002700CC /* IMNotificationCenter.h */,
+				07773CAD2115C00F002700CC /* IMNotificationCenter.m */,
+				07773CC52115C386002700CC /* IMAVNotifier.h */,
+				07773CC62115C386002700CC /* IMAVNotifier.m */,
+				07773DE22118212E002700CC /* IMSDKConfigDelegate.h */,
+				07773DE32118212E002700CC /* IMSDKConfigDelegate.m */,
+				07773DE521182184002700CC /* IMBundleSetting.h */,
+				07773DE621182184002700CC /* IMBundleSetting.m */,
+				07773DEA21183129002700CC /* IMDemoConfig.h */,
+				07773DEB21183129002700CC /* IMDemoConfig.m */,
+				07773E2B2119D8D6002700CC /* IMClientUtil.h */,
+				07773E2C2119D8D6002700CC /* IMClientUtil.m */,
+				07773E2E2119E00B002700CC /* IMSessionUtil.h */,
+				07773E2F2119E00B002700CC /* IMSessionUtil.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		07773CA22115848D002700CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				07773CA321159D10002700CC /* IMCustomNotificationObject.h */,
+				07773CA421159D10002700CC /* IMCustomNotificationObject.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07773CAF2115C1C0002700CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07773CB02115C1E4002700CC /* NIMKitEmoticon.bundle */,
+				07773CB12115C1E4002700CC /* NIMKitResource.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		07773CB42115C1FC002700CC /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				07773CB52115C1FC002700CC /* video_connect_chat_tip_sender.aac */,
+				07773CB62115C1FC002700CC /* video_chat_tip_OnCall.aac */,
+				07773CB72115C1FC002700CC /* video_chat_tip_sender.aac */,
+				07773CB82115C1FC002700CC /* video_chat_tip_HangUp.aac */,
+				07773CB92115C1FC002700CC /* message.wav */,
+				07773CBA2115C1FC002700CC /* video_chat_tip_receiver.aac */,
+				07773CBB2115C1FC002700CC /* video_chat_tip_onTimer.aac */,
+				07773CBC2115C1FC002700CC /* video_chat_push.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		07773CC82115CC15002700CC /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				07773CCD2115CC83002700CC /* Misc */,
+				07773CC92115CC1D002700CC /* Attach */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		07773CC92115CC1D002700CC /* Attach */ = {
+			isa = PBXGroup;
+			children = (
+				07773CCA2115CC3B002700CC /* IMRedPacketTipAttachment.h */,
+				07773CCB2115CC3B002700CC /* IMRedPacketTipAttachment.m */,
+			);
+			path = Attach;
+			sourceTree = "<group>";
+		};
+		07773CCD2115CC83002700CC /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				07773CCE2115CC9D002700CC /* IMCustomAttachmentInfo.h */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		07773CD12115D373002700CC /* NIMKit */ = {
+			isa = PBXGroup;
+			children = (
+				07773D352115DD1F002700CC /* Class */,
+			);
+			path = NIMKit;
+			sourceTree = "<group>";
+		};
+		07773D352115DD1F002700CC /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				07773D4C2116A98B002700CC /* Category */,
+				07773D482116A81F002700CC /* Global */,
+				07773D392115DDD6002700CC /* Protocol */,
+				07773D362115DD3A002700CC /* Sections */,
+				07773D322115D806002700CC /* NIMKit.h */,
+				07773D332115D806002700CC /* NIMKit.m */,
+			);
+			name = Class;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		07773D362115DD3A002700CC /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				07773D6D2117EF46002700CC /* SessionList */,
+				07773D692117E30B002700CC /* Object */,
+				07773D652117DF42002700CC /* ViewController */,
+				07773D522116B5C0002700CC /* Utils */,
+				07773D502116AC08002700CC /* Input */,
+				07773D3B2115E10E002700CC /* Model */,
+				07773D372115DD4A002700CC /* Session */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		07773D372115DD4A002700CC /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				07773D382115DD52002700CC /* Config */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		07773D382115DD52002700CC /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				07773D3F2115EF29002700CC /* NIMCellLayoutConfig.h */,
+				07773D402115EF29002700CC /* NIMCellLayoutConfig.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		07773D392115DDD6002700CC /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				07773D3A2115DE36002700CC /* NIMCellConfig.h */,
+				07773D5E2116D0E3002700CC /* NIMKitDataProvider.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		07773D3B2115E10E002700CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				07773D3C2115E1C7002700CC /* NIMMessageModel.h */,
+				07773D3D2115E1C7002700CC /* NIMMessageModel.m */,
+				07773D422115F10B002700CC /* NIMKitInfo.h */,
+				07773D432115F10B002700CC /* NIMKitInfo.m */,
+				07773D452115F38B002700CC /* NIMKitInfoFetchOption.h */,
+				07773D462115F38B002700CC /* NIMKitInfoFetchOption.m */,
+				07773D5B2116C448002700CC /* NIMMediaItem.h */,
+				07773D5C2116C448002700CC /* NIMMediaItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07773D482116A81F002700CC /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				07773D492116A831002700CC /* NIMKitSetting.h */,
+				07773D4A2116A831002700CC /* NIMKitSetting.m */,
+				07773D562116B6AB002700CC /* NIMGlobalMacro.h */,
+				07773D582116BCD9002700CC /* NIMkitConfig.h */,
+				07773D592116BCD9002700CC /* NIMkitConfig.m */,
+				07773D5F2116D2E3002700CC /* NIMKitDataProviderImpl.h */,
+				07773D602116D2E3002700CC /* NIMKitDataProviderImpl.m */,
+				07773D622117007E002700CC /* NIMKitIndependentModeExtraInfo.h */,
+				07773D632117007E002700CC /* NIMKitIndependentModeExtraInfo.m */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		07773D4C2116A98B002700CC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				07773D4D2116AA5C002700CC /* UIImage+NIMKit.h */,
+				07773D4E2116AA5C002700CC /* UIImage+NIMKit.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		07773D502116AC08002700CC /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				07773D512116AC49002700CC /* NIMInputEmoticonDefine.h */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		07773D522116B5C0002700CC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				07773D532116B5E6002700CC /* NIMKitDevice.h */,
+				07773D542116B5E6002700CC /* NIMKitDevice.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		07773D652117DF42002700CC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07773D662117E239002700CC /* NIMSessionViewController.h */,
+				07773D672117E239002700CC /* NIMSessionViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		07773D692117E30B002700CC /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				07773D6A2117E348002700CC /* NIMSessionConfigurateProtocol.h */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		07773D6B2117EEF9002700CC /* SessionList */ = {
+			isa = PBXGroup;
+			children = (
+				07773D6C2117EF09002700CC /* ViewController */,
+			);
+			path = SessionList;
+			sourceTree = "<group>";
+		};
+		07773D6C2117EF09002700CC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07773D712117EFD3002700CC /* IMSessionListViewController.h */,
+				07773D722117EFD3002700CC /* IMSessionListViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		07773D6D2117EF46002700CC /* SessionList */ = {
+			isa = PBXGroup;
+			children = (
+				07773D6E2117EF71002700CC /* NIMSessionListViewController.h */,
+				07773D6F2117EF71002700CC /* NIMSessionListViewController.m */,
+			);
+			path = SessionList;
+			sourceTree = "<group>";
+		};
+		07773D742117F4A4002700CC /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				07773D752117F4C4002700CC /* IMContactViewController.h */,
+				07773D762117F4C4002700CC /* IMContactViewController.m */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		07773D782117F572002700CC /* ChatRoom */ = {
+			isa = PBXGroup;
+			children = (
+				07773E242119A4FD002700CC /* maker */,
+				07773E232119A4A5002700CC /* viewController */,
+			);
+			path = ChatRoom;
+			sourceTree = "<group>";
+		};
+		07773D7C2117F978002700CC /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				07773E08211991B6002700CC /* Log */,
+				07773E07211991A5002700CC /* viewController */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		07773D80211816E3002700CC /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				07773D81211816E3002700CC /* AlipaySDK */,
+				07773D84211816E3002700CC /* WXChatSDK */,
+				07773DA1211816E3002700CC /* RedPacket */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		07773D81211816E3002700CC /* AlipaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				07773D82211816E3002700CC /* AlipaySDK.bundle */,
+				07773D83211816E3002700CC /* AlipaySDK.framework */,
+			);
+			path = AlipaySDK;
+			sourceTree = "<group>";
+		};
+		07773D84211816E3002700CC /* WXChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				07773D85211816E3002700CC /* WXSDK */,
+				07773D8B211816E3002700CC /* SPaySDK */,
+			);
+			path = WXChatSDK;
+			sourceTree = "<group>";
+		};
+		07773D85211816E3002700CC /* WXSDK */ = {
+			isa = PBXGroup;
+			children = (
+				07773D86211816E3002700CC /* WXApi.h */,
+				07773D87211816E3002700CC /* WXApiObject.h */,
+				07773D88211816E3002700CC /* README.txt */,
+				07773D89211816E3002700CC /* WechatAuthSDK.h */,
+				07773D8A211816E3002700CC /* libWeChatSDK.a */,
+			);
+			path = WXSDK;
+			sourceTree = "<group>";
+		};
+		07773D8B211816E3002700CC /* SPaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				07773D8C211816E3002700CC /* include */,
+				07773D9F211816E3002700CC /* SPaySDKResource.bundle */,
+				07773DA0211816E3002700CC /* libSPaySDK.a */,
+			);
+			path = SPaySDK;
+			sourceTree = "<group>";
+		};
+		07773D8C211816E3002700CC /* include */ = {
+			isa = PBXGroup;
+			children = (
+				07773D8D211816E3002700CC /* SPayClientPayHelpModel.h */,
+				07773D8E211816E3002700CC /* SPayClientXMLWriter.h */,
+				07773D8F211816E3002700CC /* NSDictionary+SPayUtilsExtras.h */,
+				07773D90211816E3002700CC /* SPayClient.h */,
+				07773D91211816E3002700CC /* SPayClientQQConfigModel.h */,
+				07773D92211816E3002700CC /* SPBaseModel.h */,
+				07773D93211816E3002700CC /* SPayClientPaySuccessModel.h */,
+				07773D94211816E3002700CC /* SPayClientConstEnum.h */,
+				07773D95211816E3002700CC /* SPayClientPaySuccessDetailModel.h */,
+				07773D96211816E3002700CC /* NSString+SPayUtilsExtras.h */,
+				07773D97211816E3002700CC /* SPayClientPayDetailModel.h */,
+				07773D98211816E3002700CC /* SPayClientHeaders.h */,
+				07773D99211816E3002700CC /* SPayClientAlipayConfigModel.h */,
+				07773D9A211816E3002700CC /* SPayClientPayAppPayManager.h */,
+				07773D9B211816E3002700CC /* SPayClientWechatConfigModel.h */,
+				07773D9C211816E3002700CC /* SPayClientPayStateModel.h */,
+				07773D9D211816E3002700CC /* SPayClientWapPayDetailModel.h */,
+				07773D9E211816E3002700CC /* SPayClientReverseScanPayDetailModel.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		07773DA1211816E3002700CC /* RedPacket */ = {
+			isa = PBXGroup;
+			children = (
+				07773DA2211816E3002700CC /* WalletResource.bundle */,
+				07773DA3211816E3002700CC /* JRMFSington.m */,
+				07773DA4211816E3002700CC /* jrmf.cer */,
+				07773DA5211816E3002700CC /* JrmfPacketKit.framework */,
+				07773DA6211816E3002700CC /* JYangToolKit.framework */,
+				07773DA7211816E3002700CC /* JRMFHeader.h */,
+				07773DA8211816E3002700CC /* JrmfWalletKit.framework */,
+				07773DA9211816E3002700CC /* JRMFSington.h */,
+				07773DAA211816E3002700CC /* JResource.bundle */,
+			);
+			path = RedPacket;
+			sourceTree = "<group>";
+		};
+		07773DC9211819C5002700CC /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				07773DCA211819C5002700CC /* NIMSDK */,
+				07773DCC211819C5002700CC /* NIMAVChat */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		07773DCA211819C5002700CC /* NIMSDK */ = {
+			isa = PBXGroup;
+			children = (
+				07773DCB211819C5002700CC /* NIMSDK.framework */,
+			);
+			path = NIMSDK;
+			sourceTree = "<group>";
+		};
+		07773DCC211819C5002700CC /* NIMAVChat */ = {
+			isa = PBXGroup;
+			children = (
+				07773DCD211819C5002700CC /* NVS.framework */,
+				07773DCE211819C5002700CC /* Resources */,
+				07773DD0211819C5002700CC /* NIMAVChat.framework */,
+			);
+			path = NIMAVChat;
+			sourceTree = "<group>";
+		};
+		07773DCE211819C5002700CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07773DCF211819C5002700CC /* NMCVideoFilter.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		07773DED211836FA002700CC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				07773DF221184884002700CC /* ViewController */,
+				07773DF12118486F002700CC /* Manager */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		07773DF12118486F002700CC /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				07773DEE2118370E002700CC /* IMLoginManager.h */,
+				07773DEF2118370E002700CC /* IMLoginManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		07773DF221184884002700CC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07773DF6211848BB002700CC /* IMLoginViewController.h */,
+				07773DF7211848BB002700CC /* IMLoginViewController.m */,
+				07773DF8211848BB002700CC /* IMLoginViewController.xib */,
+				07773DFB21184955002700CC /* IMRegisterViewController.h */,
+				07773DFC21184955002700CC /* IMRegisterViewController.m */,
+				07773DFD21184955002700CC /* IMRegisterViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		07773E0021184CE4002700CC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				07773E0121184CFA002700CC /* UIView+IM.h */,
+				07773E0221184CFA002700CC /* UIView+IM.m */,
+				07773E0421199031002700CC /* UIActionSheet+IMBlock.h */,
+				07773E0521199031002700CC /* UIActionSheet+IMBlock.m */,
+				07773E1421199566002700CC /* NSString+IM.h */,
+				07773E1521199566002700CC /* NSString+IM.m */,
+				07773E1C2119A207002700CC /* NSDictionary+IMJson.h */,
+				07773E1D2119A207002700CC /* NSDictionary+IMJson.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		07773E07211991A5002700CC /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				07773D7E2117F98D002700CC /* IMSettingViewController.m */,
+				07773D7D2117F98D002700CC /* IMSettingViewController.h */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		07773E08211991B6002700CC /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				07773E09211991D6002700CC /* IMLogManager.h */,
+				07773E0A211991D6002700CC /* IMLogManager.m */,
+				07773E0F211992C6002700CC /* IMLogViewController.h */,
+				07773E10211992C6002700CC /* IMLogViewController.m */,
+				07773E11211992C6002700CC /* IMLogViewController.xib */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		07773E1721199F60002700CC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				07773E1821199F92002700CC /* IMDemoRegisterTask.h */,
+				07773E1921199F92002700CC /* IMDemoRegisterTask.m */,
+				07773E1B21199FC3002700CC /* IMDemoServiceTask.h */,
+				07773E1F2119A401002700CC /* IMDemoFetchChatroomTask.h */,
+				07773E202119A401002700CC /* IMDemoFetchChatroomTask.m */,
+				07773E282119A623002700CC /* IMDemoService.h */,
+				07773E292119A623002700CC /* IMDemoService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		07773E232119A4A5002700CC /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				07773D792117F58E002700CC /* IMChatroomListViewController.h */,
+				07773D7A2117F58E002700CC /* IMChatroomListViewController.m */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		07773E242119A4FD002700CC /* maker */ = {
+			isa = PBXGroup;
+			children = (
+				07773E252119A50F002700CC /* IMChatroomMaker.h */,
+				07773E262119A50F002700CC /* IMChatroomMaker.m */,
+			);
+			path = maker;
+			sourceTree = "<group>";
+		};
+		0C5BBB51C04894EFC82FC4EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07773D302115D773002700CC /* CoreLocation.framework */,
+				07773DC7211819AC002700CC /* NIMAVChat.framework */,
+				07773D2E2115D66B002700CC /* QuartzCore.framework */,
+				07773D2C2115D65B002700CC /* libstdc++.6.tbd */,
+				07773D2A2115D64D002700CC /* CoreMotion.framework */,
+				07773D282115D623002700CC /* SystemConfiguration.framework */,
+				07773D262115D61C002700CC /* MobileCoreServices.framework */,
+				07773D242115D612002700CC /* AVFoundation.framework */,
+				07773D222115D60A002700CC /* MapKit.framework */,
+				07773D202115D602002700CC /* CoreTelephony.framework */,
+				07773D1E2115D5F6002700CC /* VideoToolbox.framework */,
+				07773D1C2115D5DE002700CC /* AudioToolbox.framework */,
+				07773D1A2115D5CB002700CC /* CoreMedia.framework */,
+				07773D182115D5C2002700CC /* libsqlite3.0.tbd */,
+				07773D162115D5B3002700CC /* libz.tbd */,
+				07773D142115D5AA002700CC /* libc++.tbd */,
+				07773CDA2115D4CA002700CC /* Security.framework */,
+				07773CD82115D4B7002700CC /* CFNetwork.framework */,
+				07773CD62115D4B0002700CC /* CoreText.framework */,
+				07773CD42115D4A9002700CC /* UIKit.framework */,
+				07773CD22115D4A1002700CC /* Foundation.framework */,
+				0CC0459A35EFAB5734B5C7A3 /* libPods-IMNIMDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63238FA54A34A7A14342AFF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7857636BB46479E857CA6E2 /* Pods-IMNIMDemo.debug.xcconfig */,
+				2C4D8AA08258784E98C44423 /* Pods-IMNIMDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07773C4B2115503E002700CC /* IMNIMDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07773C7821155040002700CC /* Build configuration list for PBXNativeTarget "IMNIMDemo" */;
+			buildPhases = (
+				ECCAB483ABDFFF1226D9AE20 /* [CP] Check Pods Manifest.lock */,
+				07773C482115503E002700CC /* Sources */,
+				07773C492115503E002700CC /* Frameworks */,
+				07773C4A2115503E002700CC /* Resources */,
+				44949AF6D6291C9D8E38E259 /* [CP] Embed Pods Frameworks */,
+				CDB398143BB7133DD9EAB8AC /* [CP] Copy Pods Resources */,
+				07773DE121181E62002700CC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMNIMDemo;
+			productName = IMNIMDemo;
+			productReference = 07773C4C2115503E002700CC /* IMNIMDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07773C6321155040002700CC /* IMNIMDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07773C7B21155040002700CC /* Build configuration list for PBXNativeTarget "IMNIMDemoTests" */;
+			buildPhases = (
+				07773C6021155040002700CC /* Sources */,
+				07773C6121155040002700CC /* Frameworks */,
+				07773C6221155040002700CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07773C6621155040002700CC /* PBXTargetDependency */,
+			);
+			name = IMNIMDemoTests;
+			productName = IMNIMDemoTests;
+			productReference = 07773C6421155040002700CC /* IMNIMDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07773C6E21155040002700CC /* IMNIMDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07773C7E21155040002700CC /* Build configuration list for PBXNativeTarget "IMNIMDemoUITests" */;
+			buildPhases = (
+				07773C6B21155040002700CC /* Sources */,
+				07773C6C21155040002700CC /* Frameworks */,
+				07773C6D21155040002700CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07773C7121155040002700CC /* PBXTargetDependency */,
+			);
+			name = IMNIMDemoUITests;
+			productName = IMNIMDemoUITests;
+			productReference = 07773C6F21155040002700CC /* IMNIMDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07773C442115503E002700CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = com.songlin;
+				TargetAttributes = {
+					07773C4B2115503E002700CC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					07773C6321155040002700CC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 07773C4B2115503E002700CC;
+					};
+					07773C6E21155040002700CC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 07773C4B2115503E002700CC;
+					};
+				};
+			};
+			buildConfigurationList = 07773C472115503E002700CC /* Build configuration list for PBXProject "IMNIMDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07773C432115503E002700CC;
+			productRefGroup = 07773C4D2115503E002700CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07773C4B2115503E002700CC /* IMNIMDemo */,
+				07773C6321155040002700CC /* IMNIMDemoTests */,
+				07773C6E21155040002700CC /* IMNIMDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07773C4A2115503E002700CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07773DAB211816E3002700CC /* AlipaySDK.bundle in Resources */,
+				07773DAF211816E3002700CC /* SPaySDKResource.bundle in Resources */,
+				07773DB7211816E3002700CC /* JResource.bundle in Resources */,
+				07773C5C2115503F002700CC /* LaunchScreen.storyboard in Resources */,
+				07773C592115503F002700CC /* Assets.xcassets in Resources */,
+				07773CB32115C1E4002700CC /* NIMKitResource.bundle in Resources */,
+				07773CC32115C1FC002700CC /* video_chat_tip_onTimer.aac in Resources */,
+				07773DFF21184955002700CC /* IMRegisterViewController.xib in Resources */,
+				07773DB1211816E3002700CC /* WalletResource.bundle in Resources */,
+				07773DFA211848BB002700CC /* IMLoginViewController.xib in Resources */,
+				07773CBF2115C1FC002700CC /* video_chat_tip_sender.aac in Resources */,
+				07773DAD211816E3002700CC /* README.txt in Resources */,
+				07773CD02115D2D4002700CC /* Images.xcassets in Resources */,
+				07773CC42115C1FC002700CC /* video_chat_push.mp3 in Resources */,
+				07773CB22115C1E4002700CC /* NIMKitEmoticon.bundle in Resources */,
+				07773CC02115C1FC002700CC /* video_chat_tip_HangUp.aac in Resources */,
+				07773CC12115C1FC002700CC /* message.wav in Resources */,
+				07773DD3211819C5002700CC /* NMCVideoFilter.bundle in Resources */,
+				07773CC22115C1FC002700CC /* video_chat_tip_receiver.aac in Resources */,
+				07773CBD2115C1FC002700CC /* video_connect_chat_tip_sender.aac in Resources */,
+				07773DB3211816E3002700CC /* jrmf.cer in Resources */,
+				07773CBE2115C1FC002700CC /* video_chat_tip_OnCall.aac in Resources */,
+				07773DE921182D37002700CC /* Settings.bundle in Resources */,
+				07773C572115503E002700CC /* Main.storyboard in Resources */,
+				07773E13211992C6002700CC /* IMLogViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07773C6221155040002700CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07773C6D21155040002700CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44949AF6D6291C9D8E38E259 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IMNIMDemo/Pods-IMNIMDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDB398143BB7133DD9EAB8AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IMNIMDemo/Pods-IMNIMDemo-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IMNIMDemo/Pods-IMNIMDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECCAB483ABDFFF1226D9AE20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IMNIMDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07773C482115503E002700CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07773D412115EF29002700CC /* NIMCellLayoutConfig.m in Sources */,
+				07773E212119A401002700CC /* IMDemoFetchChatroomTask.m in Sources */,
+				07773E1621199566002700CC /* NSString+IM.m in Sources */,
+				07773D772117F4C4002700CC /* IMContactViewController.m in Sources */,
+				07773DF02118370E002700CC /* IMLoginManager.m in Sources */,
+				07773E2A2119A623002700CC /* IMDemoService.m in Sources */,
+				07773DE42118212E002700CC /* IMSDKConfigDelegate.m in Sources */,
+				07773E0321184CFA002700CC /* UIView+IM.m in Sources */,
+				07773D342115D806002700CC /* NIMKit.m in Sources */,
+				07773CA82115A066002700CC /* IMFileLocationHelper.m in Sources */,
+				07773D7B2117F58E002700CC /* IMChatroomListViewController.m in Sources */,
+				07773E0B211991D6002700CC /* IMLogManager.m in Sources */,
+				07773E272119A50F002700CC /* IMChatroomMaker.m in Sources */,
+				07773D702117EF71002700CC /* NIMSessionListViewController.m in Sources */,
+				07773D732117EFD3002700CC /* IMSessionListViewController.m in Sources */,
+				07773CA521159D10002700CC /* IMCustomNotificationObject.m in Sources */,
+				07773CC72115C386002700CC /* IMAVNotifier.m in Sources */,
+				07773CAE2115C00F002700CC /* IMNotificationCenter.m in Sources */,
+				07773D682117E239002700CC /* NIMSessionViewController.m in Sources */,
+				07773D7F2117F98D002700CC /* IMSettingViewController.m in Sources */,
+				07773DB2211816E3002700CC /* JRMFSington.m in Sources */,
+				07773E12211992C6002700CC /* IMLogViewController.m in Sources */,
+				07773D612116D2E3002700CC /* NIMKitDataProviderImpl.m in Sources */,
+				07773C8721155650002700CC /* IMMainTabController.m in Sources */,
+				07773DFE21184955002700CC /* IMRegisterViewController.m in Sources */,
+				07773D5A2116BCD9002700CC /* NIMkitConfig.m in Sources */,
+				07773D5D2116C448002700CC /* NIMMediaItem.m in Sources */,
+				07773D642117007E002700CC /* NIMKitIndependentModeExtraInfo.m in Sources */,
+				07773C9D211562DC002700CC /* IMService.m in Sources */,
+				07773E1E2119A207002700CC /* NSDictionary+IMJson.m in Sources */,
+				07773E2D2119D8D6002700CC /* IMClientUtil.m in Sources */,
+				07773D4B2116A831002700CC /* NIMKitSetting.m in Sources */,
+				07773CA121158469002700CC /* IMCustomNotificationDB.m in Sources */,
+				07773C5F2115503F002700CC /* main.m in Sources */,
+				07773DF9211848BB002700CC /* IMLoginViewController.m in Sources */,
+				07773D552116B5E6002700CC /* NIMKitDevice.m in Sources */,
+				07773D472115F38B002700CC /* NIMKitInfoFetchOption.m in Sources */,
+				07773DE721182184002700CC /* IMBundleSetting.m in Sources */,
+				07773DEC21183129002700CC /* IMDemoConfig.m in Sources */,
+				07773D4F2116AA5C002700CC /* UIImage+NIMKit.m in Sources */,
+				07773CCC2115CC3B002700CC /* IMRedPacketTipAttachment.m in Sources */,
+				07773E0621199031002700CC /* UIActionSheet+IMBlock.m in Sources */,
+				07773D3E2115E1C7002700CC /* NIMMessageModel.m in Sources */,
+				07773C512115503E002700CC /* AppDelegate.m in Sources */,
+				07773D442115F10B002700CC /* NIMKitInfo.m in Sources */,
+				07773E302119E00B002700CC /* IMSessionUtil.m in Sources */,
+				07773E1A21199F92002700CC /* IMDemoRegisterTask.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07773C6021155040002700CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07773C6921155040002700CC /* IMNIMDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07773C6B21155040002700CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07773C7421155040002700CC /* IMNIMDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07773C6621155040002700CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07773C4B2115503E002700CC /* IMNIMDemo */;
+			targetProxy = 07773C6521155040002700CC /* PBXContainerItemProxy */;
+		};
+		07773C7121155040002700CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07773C4B2115503E002700CC /* IMNIMDemo */;
+			targetProxy = 07773C7021155040002700CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07773C552115503E002700CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07773C562115503E002700CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07773C5A2115503F002700CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07773C5B2115503F002700CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07773C7621155040002700CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-framework",
+					"\"NIMSDK\"",
+					"-framework",
+					"\"NIMAVChat\"",
+					"-framework",
+					"\"NVS\"",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07773C7721155040002700CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					"\"NIMSDK\"",
+					"-framework",
+					"\"NIMAVChat\"",
+					"-framework",
+					"\"NVS\"",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07773C7921155040002700CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7857636BB46479E857CA6E2 /* Pods-IMNIMDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6VWZP43FN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IMNIMDemo/Vendors/NIMSDK",
+					"$(PROJECT_DIR)/IMNIMDemo/Vendors/NIMAVChat",
+					"$(PROJECT_DIR)/IMNIMDemo/Class/Vendors/AlipaySDK",
+					"$(PROJECT_DIR)/IMNIMDemo/Class/Vendors/RedPacket",
+				);
+				GCC_PREFIX_HEADER = "/Users/songlin/Nustore Files/.hidden_shortcuts/Nutstore/IM/IMNIMDemo/IMNIMDemo/Extension/Macro/IMNIMDemo.pch";
+				INFOPLIST_FILE = IMNIMDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IMNIMDemo/Class/Vendors/WXChatSDK/WXSDK",
+					"$(PROJECT_DIR)/IMNIMDemo/Class/Vendors/WXChatSDK/SPaySDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.songlin.www.IMNIMDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07773C7A21155040002700CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C4D8AA08258784E98C44423 /* Pods-IMNIMDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6VWZP43FN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IMNIMDemo/Vendors/NIMSDK",
+					"$(PROJECT_DIR)/IMNIMDemo/Vendors/NIMAVChat",
+					"$(PROJECT_DIR)/IMNIMDemo/Class/Vendors/AlipaySDK",
+					"$(PROJECT_DIR)/IMNIMDemo/Class/Vendors/RedPacket",
+				);
+				GCC_PREFIX_HEADER = "/Users/songlin/Nustore Files/.hidden_shortcuts/Nutstore/IM/IMNIMDemo/IMNIMDemo/Extension/Macro/IMNIMDemo.pch";
+				INFOPLIST_FILE = IMNIMDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IMNIMDemo/Class/Vendors/WXChatSDK/WXSDK",
+					"$(PROJECT_DIR)/IMNIMDemo/Class/Vendors/WXChatSDK/SPaySDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.songlin.www.IMNIMDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07773C7C21155040002700CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IMNIMDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.songlin.www.IMNIMDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMNIMDemo.app/IMNIMDemo";
+			};
+			name = Debug;
+		};
+		07773C7D21155040002700CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IMNIMDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.songlin.www.IMNIMDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMNIMDemo.app/IMNIMDemo";
+			};
+			name = Release;
+		};
+		07773C7F21155040002700CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IMNIMDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.songlin.www.IMNIMDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IMNIMDemo;
+			};
+			name = Debug;
+		};
+		07773C8021155040002700CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IMNIMDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.songlin.www.IMNIMDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IMNIMDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07773C472115503E002700CC /* Build configuration list for PBXProject "IMNIMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07773C7621155040002700CC /* Debug */,
+				07773C7721155040002700CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07773C7821155040002700CC /* Build configuration list for PBXNativeTarget "IMNIMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07773C7921155040002700CC /* Debug */,
+				07773C7A21155040002700CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07773C7B21155040002700CC /* Build configuration list for PBXNativeTarget "IMNIMDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07773C7C21155040002700CC /* Debug */,
+				07773C7D21155040002700CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07773C7E21155040002700CC /* Build configuration list for PBXNativeTarget "IMNIMDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07773C7F21155040002700CC /* Debug */,
+				07773C8021155040002700CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07773C442115503E002700CC /* Project object */;
+}

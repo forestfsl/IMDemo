@@ -1,0 +1,79 @@
+//
+//  NIMCellConfig.h
+//  IMNIMDemo
+//
+//  Created by songlin on 2018/8/4.
+//  Copyright © 2018年 com.songlin. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+@class NIMMessageModel;
+
+@protocol NIMCellLayoutConfig <NSObject>
+
+@optional
+
+/**
+ * @return 返回message的内容大小
+ */
+- (CGSize)contentSize:(NIMMessageModel *)model cellWidth:(CGFloat)width;
+
+/**
+ * 需要构造的cellContent类名
+ */
+- (NSString *)cellContent:(NIMMessageModel *)model;
+
+
+/**
+ * 左对齐的气泡，cell气泡距离整个cell的内间距
+ */
+- (UIEdgeInsets)cellInsets:(NIMMessageModel *)model;
+
+/**
+ * 左对齐的气泡，cell内容距离气泡的内间距
+ */
+- (UIEdgeInsets)contentViewInsets:(NIMMessageModel *)model;
+
+/**
+ * 是否显示头像
+ */
+- (BOOL)shouldShowAvatar:(NIMMessageModel *)model;
+
+
+/**
+ * 左对齐的气泡，头像控件的origin点
+ */
+
+- (CGPoint)avatarMargin:(NIMMessageModel *)model;
+
+/**
+ *左对齐的气泡，头像控件的size
+ */
+- (CGSize)avatarSize:(NIMMessageModel *)model;
+
+/**
+ * 是否显示姓名
+ */
+- (BOOL)shouldShowNickName:(NIMMessageModel *)model;
+
+/**
+ * 左对齐的气泡，昵称控件的origin点
+ */
+- (CGPoint)nickNameMargin:(NIMMessageModel *)model;
+
+/**
+ * 消息显示在左边
+ */
+- (BOOL)shouldShowLeft:(NIMMessageModel *)model;
+
+/**
+ * 需要添加到cell上的自定义视图
+ */
+- (NSArray *)customViews:(NIMMessageModel *)model;
+
+
+/**
+ * 是否开启重试叹号开关
+ */
+- (BOOL)disableRetryButton:(NIMMessageModel *)model;
+@end
