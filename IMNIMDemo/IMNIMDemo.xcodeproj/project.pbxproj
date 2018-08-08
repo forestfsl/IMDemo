@@ -65,8 +65,6 @@
 		07773D5D2116C448002700CC /* NIMMediaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773D5C2116C448002700CC /* NIMMediaItem.m */; };
 		07773D612116D2E3002700CC /* NIMKitDataProviderImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773D602116D2E3002700CC /* NIMKitDataProviderImpl.m */; };
 		07773D642117007E002700CC /* NIMKitIndependentModeExtraInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773D632117007E002700CC /* NIMKitIndependentModeExtraInfo.m */; };
-		07773D682117E239002700CC /* NIMSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773D672117E239002700CC /* NIMSessionViewController.m */; };
-		07773D702117EF71002700CC /* NIMSessionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773D6F2117EF71002700CC /* NIMSessionListViewController.m */; };
 		07773D732117EFD3002700CC /* IMSessionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773D722117EFD3002700CC /* IMSessionListViewController.m */; };
 		07773D772117F4C4002700CC /* IMContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773D762117F4C4002700CC /* IMContactViewController.m */; };
 		07773D7B2117F58E002700CC /* IMChatroomListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773D7A2117F58E002700CC /* IMChatroomListViewController.m */; };
@@ -117,6 +115,16 @@
 		07773E2D2119D8D6002700CC /* IMClientUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773E2C2119D8D6002700CC /* IMClientUtil.m */; };
 		07773E302119E00B002700CC /* IMSessionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773E2F2119E00B002700CC /* IMSessionUtil.m */; };
 		7D92CBFDA4C0BFAC7A8053FF /* libPods-IMNIMDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC0459A35EFAB5734B5C7A3 /* libPods-IMNIMDemo.a */; };
+		C2885F5B211A908100510115 /* NIMKitTimerholder.m in Sources */ = {isa = PBXBuildFile; fileRef = C2885F5A211A908100510115 /* NIMKitTimerholder.m */; };
+		C2885F5F211A922D00510115 /* NIMKitNoticationFire.m in Sources */ = {isa = PBXBuildFile; fileRef = C2885F5E211A922D00510115 /* NIMKitNoticationFire.m */; };
+		C2885F64211A976300510115 /* IMListHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C2885F63211A976300510115 /* IMListHeader.m */; };
+		C2885F68211A9A6900510115 /* IMTextHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2885F67211A9A6900510115 /* IMTextHeaderView.m */; };
+		C2885F6B211A9B9800510115 /* IMMutliClientsHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2885F6A211A9B9800510115 /* IMMutliClientsHeaderView.m */; };
+		C2885F71211A9C0C00510115 /* IMMutiClientsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2885F6F211A9C0C00510115 /* IMMutiClientsCell.m */; };
+		C2885F72211A9C0C00510115 /* IMMutiClientsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2885F70211A9C0C00510115 /* IMMutiClientsCell.xib */; };
+		C2885F77211AC3E400510115 /* NIMSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2885F76211AC3E400510115 /* NIMSessionViewController.m */; };
+		C2885F7B211AC4E900510115 /* NIMSessionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2885F7A211AC4E900510115 /* NIMSessionListViewController.m */; };
+		C2885F7E211AC60600510115 /* NIMKitUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C2885F7D211AC60600510115 /* NIMKitUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -245,11 +253,7 @@
 		07773D602116D2E3002700CC /* NIMKitDataProviderImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMKitDataProviderImpl.m; sourceTree = "<group>"; };
 		07773D622117007E002700CC /* NIMKitIndependentModeExtraInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMKitIndependentModeExtraInfo.h; sourceTree = "<group>"; };
 		07773D632117007E002700CC /* NIMKitIndependentModeExtraInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMKitIndependentModeExtraInfo.m; sourceTree = "<group>"; };
-		07773D662117E239002700CC /* NIMSessionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMSessionViewController.h; sourceTree = "<group>"; };
-		07773D672117E239002700CC /* NIMSessionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMSessionViewController.m; sourceTree = "<group>"; };
 		07773D6A2117E348002700CC /* NIMSessionConfigurateProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMSessionConfigurateProtocol.h; sourceTree = "<group>"; };
-		07773D6E2117EF71002700CC /* NIMSessionListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMSessionListViewController.h; sourceTree = "<group>"; };
-		07773D6F2117EF71002700CC /* NIMSessionListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMSessionListViewController.m; sourceTree = "<group>"; };
 		07773D712117EFD3002700CC /* IMSessionListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMSessionListViewController.h; sourceTree = "<group>"; };
 		07773D722117EFD3002700CC /* IMSessionListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMSessionListViewController.m; sourceTree = "<group>"; };
 		07773D752117F4C4002700CC /* IMContactViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMContactViewController.h; sourceTree = "<group>"; };
@@ -342,6 +346,25 @@
 		07773E2F2119E00B002700CC /* IMSessionUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMSessionUtil.m; sourceTree = "<group>"; };
 		0CC0459A35EFAB5734B5C7A3 /* libPods-IMNIMDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IMNIMDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4D8AA08258784E98C44423 /* Pods-IMNIMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMNIMDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IMNIMDemo/Pods-IMNIMDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C2885F59211A908100510115 /* NIMKitTimerholder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMKitTimerholder.h; sourceTree = "<group>"; };
+		C2885F5A211A908100510115 /* NIMKitTimerholder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMKitTimerholder.m; sourceTree = "<group>"; };
+		C2885F5D211A922D00510115 /* NIMKitNoticationFire.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMKitNoticationFire.h; sourceTree = "<group>"; };
+		C2885F5E211A922D00510115 /* NIMKitNoticationFire.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMKitNoticationFire.m; sourceTree = "<group>"; };
+		C2885F62211A976300510115 /* IMListHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMListHeader.h; sourceTree = "<group>"; };
+		C2885F63211A976300510115 /* IMListHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMListHeader.m; sourceTree = "<group>"; };
+		C2885F66211A9A6900510115 /* IMTextHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMTextHeaderView.h; sourceTree = "<group>"; };
+		C2885F67211A9A6900510115 /* IMTextHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMTextHeaderView.m; sourceTree = "<group>"; };
+		C2885F69211A9B9800510115 /* IMMutliClientsHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMMutliClientsHeaderView.h; sourceTree = "<group>"; };
+		C2885F6A211A9B9800510115 /* IMMutliClientsHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMMutliClientsHeaderView.m; sourceTree = "<group>"; };
+		C2885F6E211A9C0C00510115 /* IMMutiClientsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMMutiClientsCell.h; sourceTree = "<group>"; };
+		C2885F6F211A9C0C00510115 /* IMMutiClientsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMMutiClientsCell.m; sourceTree = "<group>"; };
+		C2885F70211A9C0C00510115 /* IMMutiClientsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IMMutiClientsCell.xib; sourceTree = "<group>"; };
+		C2885F75211AC3E400510115 /* NIMSessionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMSessionViewController.h; sourceTree = "<group>"; };
+		C2885F76211AC3E400510115 /* NIMSessionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMSessionViewController.m; sourceTree = "<group>"; };
+		C2885F79211AC4E900510115 /* NIMSessionListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMSessionListViewController.h; sourceTree = "<group>"; };
+		C2885F7A211AC4E900510115 /* NIMSessionListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIMSessionListViewController.m; sourceTree = "<group>"; };
+		C2885F7C211AC60600510115 /* NIMKitUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMKitUtil.h; sourceTree = "<group>"; };
+		C2885F7D211AC60600510115 /* NIMKitUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMKitUtil.m; sourceTree = "<group>"; };
 		D7857636BB46479E857CA6E2 /* Pods-IMNIMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMNIMDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IMNIMDemo/Pods-IMNIMDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -661,9 +684,9 @@
 		07773D362115DD3A002700CC /* Sections */ = {
 			isa = PBXGroup;
 			children = (
+				C2885F5C211A921700510115 /* Common */,
 				07773D6D2117EF46002700CC /* SessionList */,
 				07773D692117E30B002700CC /* Object */,
-				07773D652117DF42002700CC /* ViewController */,
 				07773D522116B5C0002700CC /* Utils */,
 				07773D502116AC08002700CC /* Input */,
 				07773D3B2115E10E002700CC /* Model */,
@@ -675,6 +698,7 @@
 		07773D372115DD4A002700CC /* Session */ = {
 			isa = PBXGroup;
 			children = (
+				C2885F74211AC3AE00510115 /* ViewController */,
 				07773D382115DD52002700CC /* Config */,
 			);
 			path = Session;
@@ -751,17 +775,12 @@
 			children = (
 				07773D532116B5E6002700CC /* NIMKitDevice.h */,
 				07773D542116B5E6002700CC /* NIMKitDevice.m */,
+				C2885F59211A908100510115 /* NIMKitTimerholder.h */,
+				C2885F5A211A908100510115 /* NIMKitTimerholder.m */,
+				C2885F7C211AC60600510115 /* NIMKitUtil.h */,
+				C2885F7D211AC60600510115 /* NIMKitUtil.m */,
 			);
 			path = Utils;
-			sourceTree = "<group>";
-		};
-		07773D652117DF42002700CC /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				07773D662117E239002700CC /* NIMSessionViewController.h */,
-				07773D672117E239002700CC /* NIMSessionViewController.m */,
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 		07773D692117E30B002700CC /* Object */ = {
@@ -775,6 +794,7 @@
 		07773D6B2117EEF9002700CC /* SessionList */ = {
 			isa = PBXGroup;
 			children = (
+				C2885F65211A9A4B00510115 /* View */,
 				07773D6C2117EF09002700CC /* ViewController */,
 			);
 			path = SessionList;
@@ -792,8 +812,8 @@
 		07773D6D2117EF46002700CC /* SessionList */ = {
 			isa = PBXGroup;
 			children = (
-				07773D6E2117EF71002700CC /* NIMSessionListViewController.h */,
-				07773D6F2117EF71002700CC /* NIMSessionListViewController.m */,
+				C2885F78211AC4E900510115 /* ViewController */,
+				C2885F61211A974900510115 /* View */,
 			);
 			path = SessionList;
 			sourceTree = "<group>";
@@ -1088,6 +1108,72 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C2885F5C211A921700510115 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C2885F5D211A922D00510115 /* NIMKitNoticationFire.h */,
+				C2885F5E211A922D00510115 /* NIMKitNoticationFire.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C2885F61211A974900510115 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C2885F65211A9A4B00510115 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C2885F6D211A9BE800510115 /* MutiClientsCell */,
+				C2885F6C211A9BD100510115 /* SessionListHeader */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C2885F6C211A9BD100510115 /* SessionListHeader */ = {
+			isa = PBXGroup;
+			children = (
+				C2885F62211A976300510115 /* IMListHeader.h */,
+				C2885F63211A976300510115 /* IMListHeader.m */,
+				C2885F66211A9A6900510115 /* IMTextHeaderView.h */,
+				C2885F67211A9A6900510115 /* IMTextHeaderView.m */,
+				C2885F69211A9B9800510115 /* IMMutliClientsHeaderView.h */,
+				C2885F6A211A9B9800510115 /* IMMutliClientsHeaderView.m */,
+			);
+			path = SessionListHeader;
+			sourceTree = "<group>";
+		};
+		C2885F6D211A9BE800510115 /* MutiClientsCell */ = {
+			isa = PBXGroup;
+			children = (
+				C2885F6E211A9C0C00510115 /* IMMutiClientsCell.h */,
+				C2885F6F211A9C0C00510115 /* IMMutiClientsCell.m */,
+				C2885F70211A9C0C00510115 /* IMMutiClientsCell.xib */,
+			);
+			path = MutiClientsCell;
+			sourceTree = "<group>";
+		};
+		C2885F74211AC3AE00510115 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C2885F75211AC3E400510115 /* NIMSessionViewController.h */,
+				C2885F76211AC3E400510115 /* NIMSessionViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C2885F78211AC4E900510115 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C2885F79211AC4E900510115 /* NIMSessionListViewController.h */,
+				C2885F7A211AC4E900510115 /* NIMSessionListViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1198,6 +1284,7 @@
 				07773DAB211816E3002700CC /* AlipaySDK.bundle in Resources */,
 				07773DAF211816E3002700CC /* SPaySDKResource.bundle in Resources */,
 				07773DB7211816E3002700CC /* JResource.bundle in Resources */,
+				C2885F72211A9C0C00510115 /* IMMutiClientsCell.xib in Resources */,
 				07773C5C2115503F002700CC /* LaunchScreen.storyboard in Resources */,
 				07773C592115503F002700CC /* Assets.xcassets in Resources */,
 				07773CB32115C1E4002700CC /* NIMKitResource.bundle in Resources */,
@@ -1305,24 +1392,26 @@
 				07773E1621199566002700CC /* NSString+IM.m in Sources */,
 				07773D772117F4C4002700CC /* IMContactViewController.m in Sources */,
 				07773DF02118370E002700CC /* IMLoginManager.m in Sources */,
+				C2885F7E211AC60600510115 /* NIMKitUtil.m in Sources */,
 				07773E2A2119A623002700CC /* IMDemoService.m in Sources */,
+				C2885F5F211A922D00510115 /* NIMKitNoticationFire.m in Sources */,
 				07773DE42118212E002700CC /* IMSDKConfigDelegate.m in Sources */,
 				07773E0321184CFA002700CC /* UIView+IM.m in Sources */,
 				07773D342115D806002700CC /* NIMKit.m in Sources */,
 				07773CA82115A066002700CC /* IMFileLocationHelper.m in Sources */,
 				07773D7B2117F58E002700CC /* IMChatroomListViewController.m in Sources */,
+				C2885F64211A976300510115 /* IMListHeader.m in Sources */,
 				07773E0B211991D6002700CC /* IMLogManager.m in Sources */,
 				07773E272119A50F002700CC /* IMChatroomMaker.m in Sources */,
-				07773D702117EF71002700CC /* NIMSessionListViewController.m in Sources */,
 				07773D732117EFD3002700CC /* IMSessionListViewController.m in Sources */,
 				07773CA521159D10002700CC /* IMCustomNotificationObject.m in Sources */,
 				07773CC72115C386002700CC /* IMAVNotifier.m in Sources */,
 				07773CAE2115C00F002700CC /* IMNotificationCenter.m in Sources */,
-				07773D682117E239002700CC /* NIMSessionViewController.m in Sources */,
 				07773D7F2117F98D002700CC /* IMSettingViewController.m in Sources */,
 				07773DB2211816E3002700CC /* JRMFSington.m in Sources */,
 				07773E12211992C6002700CC /* IMLogViewController.m in Sources */,
 				07773D612116D2E3002700CC /* NIMKitDataProviderImpl.m in Sources */,
+				C2885F7B211AC4E900510115 /* NIMSessionListViewController.m in Sources */,
 				07773C8721155650002700CC /* IMMainTabController.m in Sources */,
 				07773DFE21184955002700CC /* IMRegisterViewController.m in Sources */,
 				07773D5A2116BCD9002700CC /* NIMkitConfig.m in Sources */,
@@ -1338,14 +1427,19 @@
 				07773D552116B5E6002700CC /* NIMKitDevice.m in Sources */,
 				07773D472115F38B002700CC /* NIMKitInfoFetchOption.m in Sources */,
 				07773DE721182184002700CC /* IMBundleSetting.m in Sources */,
+				C2885F77211AC3E400510115 /* NIMSessionViewController.m in Sources */,
 				07773DEC21183129002700CC /* IMDemoConfig.m in Sources */,
 				07773D4F2116AA5C002700CC /* UIImage+NIMKit.m in Sources */,
 				07773CCC2115CC3B002700CC /* IMRedPacketTipAttachment.m in Sources */,
+				C2885F71211A9C0C00510115 /* IMMutiClientsCell.m in Sources */,
+				C2885F5B211A908100510115 /* NIMKitTimerholder.m in Sources */,
+				C2885F6B211A9B9800510115 /* IMMutliClientsHeaderView.m in Sources */,
 				07773E0621199031002700CC /* UIActionSheet+IMBlock.m in Sources */,
 				07773D3E2115E1C7002700CC /* NIMMessageModel.m in Sources */,
 				07773C512115503E002700CC /* AppDelegate.m in Sources */,
 				07773D442115F10B002700CC /* NIMKitInfo.m in Sources */,
 				07773E302119E00B002700CC /* IMSessionUtil.m in Sources */,
+				C2885F68211A9A6900510115 /* IMTextHeaderView.m in Sources */,
 				07773E1A21199F92002700CC /* IMDemoRegisterTask.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1541,7 +1635,7 @@
 					"$(PROJECT_DIR)/IMNIMDemo/Class/Vendors/AlipaySDK",
 					"$(PROJECT_DIR)/IMNIMDemo/Class/Vendors/RedPacket",
 				);
-				GCC_PREFIX_HEADER = "/Users/songlin/Nustore Files/.hidden_shortcuts/Nutstore/IM/IMNIMDemo/IMNIMDemo/Extension/Macro/IMNIMDemo.pch";
+				GCC_PREFIX_HEADER = /Users/admin/Documents/IMDemo/IMNIMDemo/IMNIMDemo/Extension/Macro/IMNIMDemo.pch;
 				INFOPLIST_FILE = IMNIMDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1572,7 +1666,7 @@
 					"$(PROJECT_DIR)/IMNIMDemo/Class/Vendors/AlipaySDK",
 					"$(PROJECT_DIR)/IMNIMDemo/Class/Vendors/RedPacket",
 				);
-				GCC_PREFIX_HEADER = "/Users/songlin/Nustore Files/.hidden_shortcuts/Nutstore/IM/IMNIMDemo/IMNIMDemo/Extension/Macro/IMNIMDemo.pch";
+				GCC_PREFIX_HEADER = /Users/admin/Documents/IMDemo/IMNIMDemo/IMNIMDemo/Extension/Macro/IMNIMDemo.pch;
 				INFOPLIST_FILE = IMNIMDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

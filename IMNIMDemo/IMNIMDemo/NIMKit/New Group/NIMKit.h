@@ -29,6 +29,12 @@
 #import "NIMCellLayoutConfig.h"
 
 
+/**
+ *  会话列表页
+ */
+#import "NIMSessionListViewController.h"
+
+
 /*
  *  独立聊天室模式下需注入的信息
  */

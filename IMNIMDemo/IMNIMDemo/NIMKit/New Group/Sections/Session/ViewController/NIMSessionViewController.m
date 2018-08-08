@@ -1,18 +1,18 @@
 //
-//  NIMSessionListViewController.m
+//  NIMSessionViewController.m
 //  IMNIMDemo
 //
-//  Created by songlin on 2018/8/6.
+//  Created by fengsonglin on 2018/8/8.
 //  Copyright © 2018年 com.songlin. All rights reserved.
 //
 
-#import "NIMSessionListViewController.h"
+#import "NIMSessionViewController.h"
 
-@interface NIMSessionListViewController ()
+@interface NIMSessionViewController ()
 
 @end
 
-@implementation NIMSessionListViewController
+@implementation NIMSessionViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
