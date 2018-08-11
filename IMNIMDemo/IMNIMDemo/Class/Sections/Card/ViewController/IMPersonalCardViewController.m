@@ -1,28 +1,22 @@
 //
-//  IMSessionListViewController.m
+//  IMPersonalCardViewController.m
 //  IMNIMDemo
 //
-//  Created by songlin on 2018/8/6.
+//  Created by fengsonglin on 2018/8/11.
 //  Copyright © 2018年 com.songlin. All rights reserved.
 //
 
-#import "IMSessionListViewController.h"
+#import "IMPersonalCardViewController.h"
 
-
-@interface IMSessionListViewController ()
+@interface IMPersonalCardViewController ()
 
 @end
 
-@implementation IMSessionListViewController
+@implementation IMPersonalCardViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 /*

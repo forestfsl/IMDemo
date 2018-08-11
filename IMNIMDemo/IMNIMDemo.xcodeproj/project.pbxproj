@@ -125,6 +125,20 @@
 		C2885F77211AC3E400510115 /* NIMSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2885F76211AC3E400510115 /* NIMSessionViewController.m */; };
 		C2885F7B211AC4E900510115 /* NIMSessionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2885F7A211AC4E900510115 /* NIMSessionListViewController.m */; };
 		C2885F7E211AC60600510115 /* NIMKitUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C2885F7D211AC60600510115 /* NIMKitUtil.m */; };
+		C2D8EDA4211D7161009E8BAD /* NIMSessionListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D8EDA3211D7161009E8BAD /* NIMSessionListCell.m */; };
+		C2D8EDA7211D7202009E8BAD /* NIMAvatarImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D8EDA6211D7202009E8BAD /* NIMAvatarImageView.m */; };
+		C2D8EDAB211D7773009E8BAD /* UIView+NIMKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D8EDAA211D7773009E8BAD /* UIView+NIMKit.m */; };
+		C2D8EDAE211D88FD009E8BAD /* NIMBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D8EDAD211D88FD009E8BAD /* NIMBadgeView.m */; };
+		C2D8EDB1211D899C009E8BAD /* NSString+NIMKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D8EDB0211D899C009E8BAD /* NSString+NIMKit.m */; };
+		C2D8EDB5211EB4C4009E8BAD /* IMSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D8EDB4211EB4C4009E8BAD /* IMSessionViewController.m */; };
+		C2D8EDBA211EB601009E8BAD /* IMRobotCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D8EDB8211EB601009E8BAD /* IMRobotCardViewController.m */; };
+		C2D8EDBB211EB601009E8BAD /* IMRobotCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2D8EDB9211EB601009E8BAD /* IMRobotCardViewController.xib */; };
+		C2D8EDBE211EB781009E8BAD /* NIMCommonTableData.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D8EDBD211EB781009E8BAD /* NIMCommonTableData.m */; };
+		C2D8EDC4211EB88D009E8BAD /* IMColorButtonnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D8EDC3211EB88D009E8BAD /* IMColorButtonnCell.m */; };
+		C2D8EDC7211EBC3C009E8BAD /* IMPersonalCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D8EDC6211EBC3C009E8BAD /* IMPersonalCardViewController.m */; };
+		C2D8EDCA211EC03A009E8BAD /* IMDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D8EDC9211EC03A009E8BAD /* IMDevice.m */; };
+		C2D8EDCF211EC488009E8BAD /* IMSubscribeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D8EDCE211EC488009E8BAD /* IMSubscribeManager.m */; };
+		C2D8EDD2211EC555009E8BAD /* NIMExtensionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D8EDD1211EC555009E8BAD /* NIMExtensionHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -365,6 +379,36 @@
 		C2885F7A211AC4E900510115 /* NIMSessionListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIMSessionListViewController.m; sourceTree = "<group>"; };
 		C2885F7C211AC60600510115 /* NIMKitUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMKitUtil.h; sourceTree = "<group>"; };
 		C2885F7D211AC60600510115 /* NIMKitUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMKitUtil.m; sourceTree = "<group>"; };
+		C2D8EDA2211D7161009E8BAD /* NIMSessionListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMSessionListCell.h; sourceTree = "<group>"; };
+		C2D8EDA3211D7161009E8BAD /* NIMSessionListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMSessionListCell.m; sourceTree = "<group>"; };
+		C2D8EDA5211D7202009E8BAD /* NIMAvatarImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMAvatarImageView.h; sourceTree = "<group>"; };
+		C2D8EDA6211D7202009E8BAD /* NIMAvatarImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMAvatarImageView.m; sourceTree = "<group>"; };
+		C2D8EDA8211D7243009E8BAD /* NIMKitDependency.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMKitDependency.h; sourceTree = "<group>"; };
+		C2D8EDA9211D7773009E8BAD /* UIView+NIMKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+NIMKit.h"; sourceTree = "<group>"; };
+		C2D8EDAA211D7773009E8BAD /* UIView+NIMKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+NIMKit.m"; sourceTree = "<group>"; };
+		C2D8EDAC211D88FD009E8BAD /* NIMBadgeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMBadgeView.h; sourceTree = "<group>"; };
+		C2D8EDAD211D88FD009E8BAD /* NIMBadgeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMBadgeView.m; sourceTree = "<group>"; };
+		C2D8EDAF211D899C009E8BAD /* NSString+NIMKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+NIMKit.h"; sourceTree = "<group>"; };
+		C2D8EDB0211D899C009E8BAD /* NSString+NIMKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+NIMKit.m"; sourceTree = "<group>"; };
+		C2D8EDB3211EB4C4009E8BAD /* IMSessionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMSessionViewController.h; sourceTree = "<group>"; };
+		C2D8EDB4211EB4C4009E8BAD /* IMSessionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMSessionViewController.m; sourceTree = "<group>"; };
+		C2D8EDB7211EB601009E8BAD /* IMRobotCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMRobotCardViewController.h; sourceTree = "<group>"; };
+		C2D8EDB8211EB601009E8BAD /* IMRobotCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMRobotCardViewController.m; sourceTree = "<group>"; };
+		C2D8EDB9211EB601009E8BAD /* IMRobotCardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IMRobotCardViewController.xib; sourceTree = "<group>"; };
+		C2D8EDBC211EB781009E8BAD /* NIMCommonTableData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMCommonTableData.h; sourceTree = "<group>"; };
+		C2D8EDBD211EB781009E8BAD /* NIMCommonTableData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMCommonTableData.m; sourceTree = "<group>"; };
+		C2D8EDBF211EB819009E8BAD /* NIMCommonTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMCommonTableViewCell.h; sourceTree = "<group>"; };
+		C2D8EDC2211EB88D009E8BAD /* IMColorButtonnCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMColorButtonnCell.h; sourceTree = "<group>"; };
+		C2D8EDC3211EB88D009E8BAD /* IMColorButtonnCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMColorButtonnCell.m; sourceTree = "<group>"; };
+		C2D8EDC5211EBC3C009E8BAD /* IMPersonalCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMPersonalCardViewController.h; sourceTree = "<group>"; };
+		C2D8EDC6211EBC3C009E8BAD /* IMPersonalCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMPersonalCardViewController.m; sourceTree = "<group>"; };
+		C2D8EDC8211EC03A009E8BAD /* IMDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMDevice.h; sourceTree = "<group>"; };
+		C2D8EDC9211EC03A009E8BAD /* IMDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMDevice.m; sourceTree = "<group>"; };
+		C2D8EDCC211EC3AE009E8BAD /* IMSubscribeDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMSubscribeDefine.h; sourceTree = "<group>"; };
+		C2D8EDCD211EC488009E8BAD /* IMSubscribeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMSubscribeManager.h; sourceTree = "<group>"; };
+		C2D8EDCE211EC488009E8BAD /* IMSubscribeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMSubscribeManager.m; sourceTree = "<group>"; };
+		C2D8EDD0211EC555009E8BAD /* NIMExtensionHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMExtensionHelper.h; sourceTree = "<group>"; };
+		C2D8EDD1211EC555009E8BAD /* NIMExtensionHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMExtensionHelper.m; sourceTree = "<group>"; };
 		D7857636BB46479E857CA6E2 /* Pods-IMNIMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMNIMDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IMNIMDemo/Pods-IMNIMDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -502,7 +546,7 @@
 				07773E0021184CE4002700CC /* Category */,
 				07773D80211816E3002700CC /* Vendors */,
 				07773C9A211562B3002700CC /* Util */,
-				07773C972115622E002700CC /* Session */,
+				07773C972115622E002700CC /* Sections */,
 				07773C83211555FF002700CC /* Common */,
 				07773C8121155088002700CC /* AppDelegate */,
 			);
@@ -543,9 +587,12 @@
 			path = Macro;
 			sourceTree = "<group>";
 		};
-		07773C972115622E002700CC /* Session */ = {
+		07773C972115622E002700CC /* Sections */ = {
 			isa = PBXGroup;
 			children = (
+				C2D8EDCB211EC39A009E8BAD /* Subscribe */,
+				C2D8EDB6211EB5E9009E8BAD /* Card */,
+				C2D8EDB2211EB48C009E8BAD /* Session */,
 				07773DED211836FA002700CC /* Login */,
 				07773D7C2117F978002700CC /* Setting */,
 				07773D782117F572002700CC /* ChatRoom */,
@@ -554,7 +601,7 @@
 				07773CC82115CC15002700CC /* Object */,
 				07773C9821156236002700CC /* Notification */,
 			);
-			path = Session;
+			path = Sections;
 			sourceTree = "<group>";
 		};
 		07773C9821156236002700CC /* Notification */ = {
@@ -596,6 +643,8 @@
 				07773E2C2119D8D6002700CC /* IMClientUtil.m */,
 				07773E2E2119E00B002700CC /* IMSessionUtil.h */,
 				07773E2F2119E00B002700CC /* IMSessionUtil.m */,
+				C2D8EDC8211EC03A009E8BAD /* IMDevice.h */,
+				C2D8EDC9211EC03A009E8BAD /* IMDevice.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -749,6 +798,10 @@
 				07773D602116D2E3002700CC /* NIMKitDataProviderImpl.m */,
 				07773D622117007E002700CC /* NIMKitIndependentModeExtraInfo.h */,
 				07773D632117007E002700CC /* NIMKitIndependentModeExtraInfo.m */,
+				C2D8EDA8211D7243009E8BAD /* NIMKitDependency.h */,
+				C2D8EDBC211EB781009E8BAD /* NIMCommonTableData.h */,
+				C2D8EDBD211EB781009E8BAD /* NIMCommonTableData.m */,
+				C2D8EDBF211EB819009E8BAD /* NIMCommonTableViewCell.h */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -758,6 +811,12 @@
 			children = (
 				07773D4D2116AA5C002700CC /* UIImage+NIMKit.h */,
 				07773D4E2116AA5C002700CC /* UIImage+NIMKit.m */,
+				C2D8EDA9211D7773009E8BAD /* UIView+NIMKit.h */,
+				C2D8EDAA211D7773009E8BAD /* UIView+NIMKit.m */,
+				C2D8EDAF211D899C009E8BAD /* NSString+NIMKit.h */,
+				C2D8EDB0211D899C009E8BAD /* NSString+NIMKit.m */,
+				C2D8EDD0211EC555009E8BAD /* NIMExtensionHelper.h */,
+				C2D8EDD1211EC555009E8BAD /* NIMExtensionHelper.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -1113,6 +1172,10 @@
 			children = (
 				C2885F5D211A922D00510115 /* NIMKitNoticationFire.h */,
 				C2885F5E211A922D00510115 /* NIMKitNoticationFire.m */,
+				C2D8EDA5211D7202009E8BAD /* NIMAvatarImageView.h */,
+				C2D8EDA6211D7202009E8BAD /* NIMAvatarImageView.m */,
+				C2D8EDAC211D88FD009E8BAD /* NIMBadgeView.h */,
+				C2D8EDAD211D88FD009E8BAD /* NIMBadgeView.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -1120,6 +1183,8 @@
 		C2885F61211A974900510115 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C2D8EDA2211D7161009E8BAD /* NIMSessionListCell.h */,
+				C2D8EDA3211D7161009E8BAD /* NIMSessionListCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1172,6 +1237,55 @@
 				C2885F7A211AC4E900510115 /* NIMSessionListViewController.m */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C2D8EDB2211EB48C009E8BAD /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				C2D8EDB3211EB4C4009E8BAD /* IMSessionViewController.h */,
+				C2D8EDB4211EB4C4009E8BAD /* IMSessionViewController.m */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		C2D8EDB6211EB5E9009E8BAD /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				C2D8EDC1211EB869009E8BAD /* View */,
+				C2D8EDC0211EB85C009E8BAD /* ViewController */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		C2D8EDC0211EB85C009E8BAD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C2D8EDB7211EB601009E8BAD /* IMRobotCardViewController.h */,
+				C2D8EDB8211EB601009E8BAD /* IMRobotCardViewController.m */,
+				C2D8EDB9211EB601009E8BAD /* IMRobotCardViewController.xib */,
+				C2D8EDC5211EBC3C009E8BAD /* IMPersonalCardViewController.h */,
+				C2D8EDC6211EBC3C009E8BAD /* IMPersonalCardViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C2D8EDC1211EB869009E8BAD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C2D8EDC2211EB88D009E8BAD /* IMColorButtonnCell.h */,
+				C2D8EDC3211EB88D009E8BAD /* IMColorButtonnCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C2D8EDCB211EC39A009E8BAD /* Subscribe */ = {
+			isa = PBXGroup;
+			children = (
+				C2D8EDCC211EC3AE009E8BAD /* IMSubscribeDefine.h */,
+				C2D8EDCD211EC488009E8BAD /* IMSubscribeManager.h */,
+				C2D8EDCE211EC488009E8BAD /* IMSubscribeManager.m */,
+			);
+			path = Subscribe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1292,6 +1406,7 @@
 				07773DFF21184955002700CC /* IMRegisterViewController.xib in Resources */,
 				07773DB1211816E3002700CC /* WalletResource.bundle in Resources */,
 				07773DFA211848BB002700CC /* IMLoginViewController.xib in Resources */,
+				C2D8EDBB211EB601009E8BAD /* IMRobotCardViewController.xib in Resources */,
 				07773CBF2115C1FC002700CC /* video_chat_tip_sender.aac in Resources */,
 				07773DAD211816E3002700CC /* README.txt in Resources */,
 				07773CD02115D2D4002700CC /* Images.xcassets in Resources */,
@@ -1391,12 +1506,15 @@
 				07773E212119A401002700CC /* IMDemoFetchChatroomTask.m in Sources */,
 				07773E1621199566002700CC /* NSString+IM.m in Sources */,
 				07773D772117F4C4002700CC /* IMContactViewController.m in Sources */,
+				C2D8EDBE211EB781009E8BAD /* NIMCommonTableData.m in Sources */,
+				C2D8EDAB211D7773009E8BAD /* UIView+NIMKit.m in Sources */,
 				07773DF02118370E002700CC /* IMLoginManager.m in Sources */,
 				C2885F7E211AC60600510115 /* NIMKitUtil.m in Sources */,
 				07773E2A2119A623002700CC /* IMDemoService.m in Sources */,
 				C2885F5F211A922D00510115 /* NIMKitNoticationFire.m in Sources */,
 				07773DE42118212E002700CC /* IMSDKConfigDelegate.m in Sources */,
 				07773E0321184CFA002700CC /* UIView+IM.m in Sources */,
+				C2D8EDC7211EBC3C009E8BAD /* IMPersonalCardViewController.m in Sources */,
 				07773D342115D806002700CC /* NIMKit.m in Sources */,
 				07773CA82115A066002700CC /* IMFileLocationHelper.m in Sources */,
 				07773D7B2117F58E002700CC /* IMChatroomListViewController.m in Sources */,
@@ -1409,9 +1527,12 @@
 				07773CAE2115C00F002700CC /* IMNotificationCenter.m in Sources */,
 				07773D7F2117F98D002700CC /* IMSettingViewController.m in Sources */,
 				07773DB2211816E3002700CC /* JRMFSington.m in Sources */,
+				C2D8EDAE211D88FD009E8BAD /* NIMBadgeView.m in Sources */,
 				07773E12211992C6002700CC /* IMLogViewController.m in Sources */,
 				07773D612116D2E3002700CC /* NIMKitDataProviderImpl.m in Sources */,
+				C2D8EDA7211D7202009E8BAD /* NIMAvatarImageView.m in Sources */,
 				C2885F7B211AC4E900510115 /* NIMSessionListViewController.m in Sources */,
+				C2D8EDBA211EB601009E8BAD /* IMRobotCardViewController.m in Sources */,
 				07773C8721155650002700CC /* IMMainTabController.m in Sources */,
 				07773DFE21184955002700CC /* IMRegisterViewController.m in Sources */,
 				07773D5A2116BCD9002700CC /* NIMkitConfig.m in Sources */,
@@ -1419,6 +1540,7 @@
 				07773D642117007E002700CC /* NIMKitIndependentModeExtraInfo.m in Sources */,
 				07773C9D211562DC002700CC /* IMService.m in Sources */,
 				07773E1E2119A207002700CC /* NSDictionary+IMJson.m in Sources */,
+				C2D8EDCF211EC488009E8BAD /* IMSubscribeManager.m in Sources */,
 				07773E2D2119D8D6002700CC /* IMClientUtil.m in Sources */,
 				07773D4B2116A831002700CC /* NIMKitSetting.m in Sources */,
 				07773CA121158469002700CC /* IMCustomNotificationDB.m in Sources */,
@@ -1427,18 +1549,24 @@
 				07773D552116B5E6002700CC /* NIMKitDevice.m in Sources */,
 				07773D472115F38B002700CC /* NIMKitInfoFetchOption.m in Sources */,
 				07773DE721182184002700CC /* IMBundleSetting.m in Sources */,
+				C2D8EDA4211D7161009E8BAD /* NIMSessionListCell.m in Sources */,
 				C2885F77211AC3E400510115 /* NIMSessionViewController.m in Sources */,
+				C2D8EDB1211D899C009E8BAD /* NSString+NIMKit.m in Sources */,
 				07773DEC21183129002700CC /* IMDemoConfig.m in Sources */,
 				07773D4F2116AA5C002700CC /* UIImage+NIMKit.m in Sources */,
 				07773CCC2115CC3B002700CC /* IMRedPacketTipAttachment.m in Sources */,
 				C2885F71211A9C0C00510115 /* IMMutiClientsCell.m in Sources */,
 				C2885F5B211A908100510115 /* NIMKitTimerholder.m in Sources */,
 				C2885F6B211A9B9800510115 /* IMMutliClientsHeaderView.m in Sources */,
+				C2D8EDCA211EC03A009E8BAD /* IMDevice.m in Sources */,
 				07773E0621199031002700CC /* UIActionSheet+IMBlock.m in Sources */,
 				07773D3E2115E1C7002700CC /* NIMMessageModel.m in Sources */,
+				C2D8EDD2211EC555009E8BAD /* NIMExtensionHelper.m in Sources */,
 				07773C512115503E002700CC /* AppDelegate.m in Sources */,
+				C2D8EDC4211EB88D009E8BAD /* IMColorButtonnCell.m in Sources */,
 				07773D442115F10B002700CC /* NIMKitInfo.m in Sources */,
 				07773E302119E00B002700CC /* IMSessionUtil.m in Sources */,
+				C2D8EDB5211EB4C4009E8BAD /* IMSessionViewController.m in Sources */,
 				C2885F68211A9A6900510115 /* IMTextHeaderView.m in Sources */,
 				07773E1A21199F92002700CC /* IMDemoRegisterTask.m in Sources */,
 			);

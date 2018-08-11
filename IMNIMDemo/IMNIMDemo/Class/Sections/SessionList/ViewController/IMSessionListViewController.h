@@ -10,4 +10,6 @@
 
 @interface IMSessionListViewController : NIMSessionListViewController
 
+@property (nonatomic, strong) UILabel *emptyTipLabel;
+
 @end
