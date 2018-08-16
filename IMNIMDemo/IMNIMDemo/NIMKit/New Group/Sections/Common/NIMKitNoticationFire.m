@@ -67,4 +67,20 @@ NSString *const NIMKitInfoKey                        = @"InfoId";
 
 @implementation NIMKitFireInfo
 
+- (NSObject *)firstObject
+{
+    if (self.session) {
+        return self.session.sessionId;
+    }
+    return [NSNull null];
+}
+
+- (NSString *)saveIdentity
+{
+    if (self.session) {
+        return [NSString stringWithFormat:@"%@-%zd",self.session.sessionId,self.session.sessionType];
+    }
+    return self.notificationName;
+}
+
 @end

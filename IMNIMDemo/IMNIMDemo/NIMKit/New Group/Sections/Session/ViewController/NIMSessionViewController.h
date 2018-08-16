@@ -7,6 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <NIMSDK/NIMSDK.h>
+#import "NIMSessionConfig.h"
+#import "NIMMessageCellProtocol.h"
+#import "NIMSessionConfigurateProtocol.h"
+#import "NIMInputView.h"
 
 
 @interface NIMSessionViewController : UIViewController

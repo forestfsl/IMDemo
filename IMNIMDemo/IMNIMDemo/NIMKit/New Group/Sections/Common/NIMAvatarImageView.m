@@ -9,6 +9,7 @@
 #import "NIMAvatarImageView.h"
 #import "UIView+NIMKit.h"
 #import "objc/runtime.h"
+#import "NIMKitDependency.h"
 #import "NIMKit.h"
 #import "NIMKitInfoFetchOption.h"
 
@@ -24,30 +25,33 @@ static char imageURLKey;
 
 @implementation NIMAvatarImageView
 
-- (instancetype)initWithFrame:(CGRect)frame
+
+- (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
-    if (self) {
+    if (self)
+    {
         [self setup];
     }
     return self;
 }
 
 
-- (instancetype)initWithCoder:(NSCoder *)aDecoder
+- (id)initWithCoder:(NSCoder *)aDecoder
 {
-    if (self = [super initWithCoder:aDecoder]) {
+    if (self = [super initWithCoder:aDecoder])
+    {
         [self setup];
     }
     return self;
 }
-
 
 - (void)setup
 {
-    _imageView = [[UIImageView alloc]initWithFrame:self.bounds];
+    _imageView = [[UIImageView alloc] initWithFrame:self.bounds];
     _imageView.contentMode = UIViewContentModeScaleAspectFill;
-    [self addSubview:_imageView] ;
+    [self addSubview:_imageView];
+    
     self.backgroundColor = [UIColor clearColor];
     [self setupRadius];
 }
@@ -55,44 +59,49 @@ static char imageURLKey;
 
 - (void)setupRadius
 {
-    switch ([NIMKit sharedKit].config.avatarType) {
+    switch ([NIMKit sharedKit].config.avatarType)
+    {
         case NIMKitAvatarTypeNone:
             _cornerRadius = 0;
             break;
         case NIMKitAvatarTypeRounded:
-            _cornerRadius = self.nim_width * .5f;
+            _cornerRadius = self.nim_width *.5f;
             break;
         case NIMKitAvatarTypeRadiusCorner:
             _cornerRadius = 6.f;
+            break;
         default:
             break;
     }
 }
 
+
 - (void)setImage:(UIImage *)image
 {
-    if (_image != image) {
+    if (_image != image)
+    {
         _image = image;
-        UIImage *fixedImage = [self imageAddCornerWithRadius:_cornerRadius andSize:self.bounds.size];
+        UIImage *fixedImage  = [self imageAddCornerWithRadius:_cornerRadius andSize:self.bounds.size];
         self.imageView.image = fixedImage;
     }
-    
 }
 
-- (UIImage *)imageAddCornerWithRadius:(CGFloat)radius andSize:(CGSize)size
+- (UIImage*)imageAddCornerWithRadius:(CGFloat)radius andSize:(CGSize)size
 {
     CGRect rect = CGRectMake(0, 0, size.width, size.height);
+    
     UIGraphicsBeginImageContextWithOptions(size, NO, [UIScreen mainScreen].scale);
     CGContextRef ctx = UIGraphicsGetCurrentContext();
     CGPathRef path = self.path;
-    CGContextAddPath(ctx, path);
+    CGContextAddPath(ctx,path);
     CGContextClip(ctx);
     [self.image drawInRect:rect];
     CGContextDrawPath(ctx, kCGPathFillStroke);
-    UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIImage * newImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     return newImage;
 }
+
 
 - (CGPathRef)path
 {
@@ -102,15 +111,18 @@ static char imageURLKey;
 
 
 
+
+
 - (void)setAvatarBySession:(NIMSession *)session
 {
     NIMKitInfo *info = nil;
-    if (session.sessionType == NIMSessionTypeTeam) {
+    if (session.sessionType == NIMSessionTypeTeam)
+    {
         info = [[NIMKit sharedKit] infoByTeam:session.sessionId option:nil];
     }
     else
     {
-        NIMKitInfoFetchOption *option = [[NIMKitInfoFetchOption alloc]init];
+        NIMKitInfoFetchOption *option = [[NIMKitInfoFetchOption alloc] init];
         option.session = session;
         info = [[NIMKit sharedKit] infoByUser:session.sessionId option:option];
     }
@@ -120,16 +132,19 @@ static char imageURLKey;
 
 - (void)setAvatarByMessage:(NIMMessage *)message
 {
-    NIMKitInfoFetchOption *option = [[NIMKitInfoFetchOption alloc]init];
+    NIMKitInfoFetchOption *option = [[NIMKitInfoFetchOption alloc] init];
     option.message = message;
     NSString *from = nil;
-    if (message.messageType == NIMMessageTypeRobot) {
+    if (message.messageType == NIMMessageTypeRobot)
+    {
         NIMRobotObject *object = (NIMRobotObject *)message.messageObject;
-        if (object.isFromRobot) {
+        if (object.isFromRobot)
+        {
             from = object.robotId;
         }
     }
-    if (!from) {
+    if (!from)
+    {
         from = message.from;
     }
     NIMKitInfo *info = [[NIMKit sharedKit] infoByUser:from option:option];
@@ -141,7 +156,6 @@ static char imageURLKey;
 
 
 @implementation NIMAvatarImageView (SDWebImageCache)
-
 
 - (void)nim_setImageWithURL:(NSURL *)url {
     [self nim_setImageWithURL:url placeholderImage:nil options:0 progress:nil completed:nil];
@@ -259,7 +273,6 @@ static char imageURLKey;
 - (void)nim_cancelCurrentAnimationImagesLoad {
     [self sd_cancelImageLoadOperationWithKey:@"UIImageViewAnimationImages"];
 }
-
 
 
 @end

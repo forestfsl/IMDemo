@@ -315,4 +315,24 @@
     return name;
 }
 
+#pragma mark - avatar
+- (UIImage *)defaultTeamAvatar
+{
+    if (!_defaultTeamAvatar)
+    {
+        _defaultTeamAvatar = [UIImage nim_imageInKit:@"avatar_team"];
+    }
+    return _defaultTeamAvatar;
+}
+
+- (UIImage *)defaultUserAvatar
+{
+    if (!_defaultUserAvatar)
+    {
+        _defaultUserAvatar = [UIImage nim_imageInKit:@"avatar_user"];
+    }
+    return _defaultUserAvatar;
+}
+
+
 @end

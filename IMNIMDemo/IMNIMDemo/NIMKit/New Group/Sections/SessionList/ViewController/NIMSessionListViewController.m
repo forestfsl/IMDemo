@@ -115,6 +115,14 @@
     return 1;
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 70.f;
+}
+
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
+    return YES;
+}
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return self.recentSessions.count;
@@ -177,6 +185,11 @@
 {
     NSString *content = [self messageContent:recent.lastMessage];
     return [[NSAttributedString alloc] initWithString:content ?: @""];
+}
+
+
+- (NSString *)timestampDescriptionForRecentSession:(NIMRecentSession *)recent{
+       return [NIMKitUtil showTime:recent.lastMessage.timestamp showDetail:NO];
 }
 
 - (void)didReceiveMemoryWarning {

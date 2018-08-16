@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		07773C512115503E002700CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773C502115503E002700CC /* AppDelegate.m */; };
 		07773C572115503E002700CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07773C552115503E002700CC /* Main.storyboard */; };
-		07773C592115503F002700CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07773C582115503F002700CC /* Assets.xcassets */; };
 		07773C5C2115503F002700CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07773C5A2115503F002700CC /* LaunchScreen.storyboard */; };
 		07773C5F2115503F002700CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773C5E2115503F002700CC /* main.m */; };
 		07773C6921155040002700CC /* IMNIMDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07773C6821155040002700CC /* IMNIMDemoTests.m */; };
@@ -125,6 +124,25 @@
 		C2885F77211AC3E400510115 /* NIMSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2885F76211AC3E400510115 /* NIMSessionViewController.m */; };
 		C2885F7B211AC4E900510115 /* NIMSessionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2885F7A211AC4E900510115 /* NIMSessionListViewController.m */; };
 		C2885F7E211AC60600510115 /* NIMKitUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C2885F7D211AC60600510115 /* NIMKitUtil.m */; };
+		C29CECA6212118CE007AAAB8 /* IMClientsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29CECA5212118CE007AAAB8 /* IMClientsTableViewController.m */; };
+		C2B029862123D49F00282E72 /* NIMInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B029852123D49F00282E72 /* NIMInputView.m */; };
+		C2B029892123D51400282E72 /* NIMInputMoreContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B029882123D51400282E72 /* NIMInputMoreContainerView.m */; };
+		C2B0298D2123DF8C00282E72 /* NIMPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B0298C2123DF8C00282E72 /* NIMPageView.m */; };
+		C2B0299021242E9300282E72 /* NIMInputEmoticonContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B0298F21242E9300282E72 /* NIMInputEmoticonContainerView.m */; };
+		C2B0299321242EDB00282E72 /* NIMInputEmoticonTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B0299221242EDB00282E72 /* NIMInputEmoticonTabView.m */; };
+		C2B0299621250DEE00282E72 /* NIMInputEmoticonButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B0299521250DEE00282E72 /* NIMInputEmoticonButton.m */; };
+		C2B0299821251B5D00282E72 /* NIMDemoChartlet.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C2B0299721251B5C00282E72 /* NIMDemoChartlet.bundle */; };
+		C2B0299B2125230700282E72 /* NIMInputAtCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B0299A2125230700282E72 /* NIMInputAtCache.m */; };
+		C2B0299E2125254700282E72 /* NIMInputToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B0299D2125254700282E72 /* NIMInputToolBar.m */; };
+		C2B029A2212546E300282E72 /* NIMGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B029A1212546E300282E72 /* NIMGrowingTextView.m */; };
+		C2B029A521254BC200282E72 /* NIMGrowingInternalTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B029A421254BC200282E72 /* NIMGrowingInternalTextView.m */; };
+		C2D3250421211E33005C27F7 /* IMSessionPeekNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D3250321211E33005C27F7 /* IMSessionPeekNavigationViewController.m */; };
+		C2D32507212127AE005C27F7 /* IMSnapchatAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D32506212127AE005C27F7 /* IMSnapchatAttachment.m */; };
+		C2D3250A212128BE005C27F7 /* IMJanKenPonAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D32509212128BE005C27F7 /* IMJanKenPonAttachment.m */; };
+		C2D3250D212129E8005C27F7 /* IMChartletAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D3250C212129E8005C27F7 /* IMChartletAttachment.m */; };
+		C2D3251021212A75005C27F7 /* IMSWhiteboardAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D3250F21212A75005C27F7 /* IMSWhiteboardAttachment.m */; };
+		C2D3251321212B03005C27F7 /* IMRedPacketAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D3251221212B03005C27F7 /* IMRedPacketAttachment.m */; };
+		C2D3251921215473005C27F7 /* NIMInputEmoticonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D3251821215473005C27F7 /* NIMInputEmoticonManager.m */; };
 		C2D8EDA4211D7161009E8BAD /* NIMSessionListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D8EDA3211D7161009E8BAD /* NIMSessionListCell.m */; };
 		C2D8EDA7211D7202009E8BAD /* NIMAvatarImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D8EDA6211D7202009E8BAD /* NIMAvatarImageView.m */; };
 		C2D8EDAB211D7773009E8BAD /* UIView+NIMKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D8EDAA211D7773009E8BAD /* UIView+NIMKit.m */; };
@@ -179,7 +197,6 @@
 		07773C4F2115503E002700CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		07773C502115503E002700CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		07773C562115503E002700CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		07773C582115503F002700CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07773C5B2115503F002700CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07773C5D2115503F002700CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07773C5E2115503F002700CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -379,6 +396,48 @@
 		C2885F7A211AC4E900510115 /* NIMSessionListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIMSessionListViewController.m; sourceTree = "<group>"; };
 		C2885F7C211AC60600510115 /* NIMKitUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMKitUtil.h; sourceTree = "<group>"; };
 		C2885F7D211AC60600510115 /* NIMKitUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMKitUtil.m; sourceTree = "<group>"; };
+		C29CECA4212118CE007AAAB8 /* IMClientsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMClientsTableViewController.h; sourceTree = "<group>"; };
+		C29CECA5212118CE007AAAB8 /* IMClientsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMClientsTableViewController.m; sourceTree = "<group>"; };
+		C2B029832123CC1300282E72 /* NIMMessageCellProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMMessageCellProtocol.h; sourceTree = "<group>"; };
+		C2B029842123D49F00282E72 /* NIMInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMInputView.h; sourceTree = "<group>"; };
+		C2B029852123D49F00282E72 /* NIMInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMInputView.m; sourceTree = "<group>"; };
+		C2B029872123D51400282E72 /* NIMInputMoreContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMInputMoreContainerView.h; sourceTree = "<group>"; };
+		C2B029882123D51400282E72 /* NIMInputMoreContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMInputMoreContainerView.m; sourceTree = "<group>"; };
+		C2B0298A2123DD7900282E72 /* NIMInputProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMInputProtocol.h; sourceTree = "<group>"; };
+		C2B0298B2123DF8C00282E72 /* NIMPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMPageView.h; sourceTree = "<group>"; };
+		C2B0298C2123DF8C00282E72 /* NIMPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMPageView.m; sourceTree = "<group>"; };
+		C2B0298E21242E9300282E72 /* NIMInputEmoticonContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMInputEmoticonContainerView.h; sourceTree = "<group>"; };
+		C2B0298F21242E9300282E72 /* NIMInputEmoticonContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMInputEmoticonContainerView.m; sourceTree = "<group>"; };
+		C2B0299121242EDB00282E72 /* NIMInputEmoticonTabView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMInputEmoticonTabView.h; sourceTree = "<group>"; };
+		C2B0299221242EDB00282E72 /* NIMInputEmoticonTabView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMInputEmoticonTabView.m; sourceTree = "<group>"; };
+		C2B0299421250DEE00282E72 /* NIMInputEmoticonButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMInputEmoticonButton.h; sourceTree = "<group>"; };
+		C2B0299521250DEE00282E72 /* NIMInputEmoticonButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMInputEmoticonButton.m; sourceTree = "<group>"; };
+		C2B0299721251B5C00282E72 /* NIMDemoChartlet.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NIMDemoChartlet.bundle; sourceTree = "<group>"; };
+		C2B029992125230700282E72 /* NIMInputAtCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMInputAtCache.h; sourceTree = "<group>"; };
+		C2B0299A2125230700282E72 /* NIMInputAtCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMInputAtCache.m; sourceTree = "<group>"; };
+		C2B0299C2125254700282E72 /* NIMInputToolBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMInputToolBar.h; sourceTree = "<group>"; };
+		C2B0299D2125254700282E72 /* NIMInputToolBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMInputToolBar.m; sourceTree = "<group>"; };
+		C2B029A0212546E300282E72 /* NIMGrowingTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMGrowingTextView.h; sourceTree = "<group>"; };
+		C2B029A1212546E300282E72 /* NIMGrowingTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMGrowingTextView.m; sourceTree = "<group>"; };
+		C2B029A321254BC200282E72 /* NIMGrowingInternalTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMGrowingInternalTextView.h; sourceTree = "<group>"; };
+		C2B029A421254BC200282E72 /* NIMGrowingInternalTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMGrowingInternalTextView.m; sourceTree = "<group>"; };
+		C2D3250221211E33005C27F7 /* IMSessionPeekNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMSessionPeekNavigationViewController.h; sourceTree = "<group>"; };
+		C2D3250321211E33005C27F7 /* IMSessionPeekNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMSessionPeekNavigationViewController.m; sourceTree = "<group>"; };
+		C2D32505212127AE005C27F7 /* IMSnapchatAttachment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMSnapchatAttachment.h; sourceTree = "<group>"; };
+		C2D32506212127AE005C27F7 /* IMSnapchatAttachment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMSnapchatAttachment.m; sourceTree = "<group>"; };
+		C2D32508212128BE005C27F7 /* IMJanKenPonAttachment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMJanKenPonAttachment.h; sourceTree = "<group>"; };
+		C2D32509212128BE005C27F7 /* IMJanKenPonAttachment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMJanKenPonAttachment.m; sourceTree = "<group>"; };
+		C2D3250B212129E8005C27F7 /* IMChartletAttachment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMChartletAttachment.h; sourceTree = "<group>"; };
+		C2D3250C212129E8005C27F7 /* IMChartletAttachment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMChartletAttachment.m; sourceTree = "<group>"; };
+		C2D3250E21212A75005C27F7 /* IMSWhiteboardAttachment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMSWhiteboardAttachment.h; sourceTree = "<group>"; };
+		C2D3250F21212A75005C27F7 /* IMSWhiteboardAttachment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMSWhiteboardAttachment.m; sourceTree = "<group>"; };
+		C2D3251121212B03005C27F7 /* IMRedPacketAttachment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMRedPacketAttachment.h; sourceTree = "<group>"; };
+		C2D3251221212B03005C27F7 /* IMRedPacketAttachment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMRedPacketAttachment.m; sourceTree = "<group>"; };
+		C2D3251421215189005C27F7 /* NIMSessionConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMSessionConfig.h; sourceTree = "<group>"; };
+		C2D325152121526B005C27F7 /* NIMKitMessageProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMKitMessageProvider.h; sourceTree = "<group>"; };
+		C2D32516212153BF005C27F7 /* NIMInputBarItemType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMInputBarItemType.h; sourceTree = "<group>"; };
+		C2D3251721215473005C27F7 /* NIMInputEmoticonManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMInputEmoticonManager.h; sourceTree = "<group>"; };
+		C2D3251821215473005C27F7 /* NIMInputEmoticonManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMInputEmoticonManager.m; sourceTree = "<group>"; };
 		C2D8EDA2211D7161009E8BAD /* NIMSessionListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMSessionListCell.h; sourceTree = "<group>"; };
 		C2D8EDA3211D7161009E8BAD /* NIMSessionListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMSessionListCell.m; sourceTree = "<group>"; };
 		C2D8EDA5211D7202009E8BAD /* NIMAvatarImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMAvatarImageView.h; sourceTree = "<group>"; };
@@ -503,7 +562,6 @@
 				07773C9421155D5F002700CC /* Extension */,
 				07773C82211555F0002700CC /* Class */,
 				07773C552115503E002700CC /* Main.storyboard */,
-				07773C582115503F002700CC /* Assets.xcassets */,
 				07773C5A2115503F002700CC /* LaunchScreen.storyboard */,
 				07773C5D2115503F002700CC /* Info.plist */,
 				07773C5E2115503F002700CC /* main.m */,
@@ -661,6 +719,7 @@
 		07773CAF2115C1C0002700CC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C2B0299721251B5C00282E72 /* NIMDemoChartlet.bundle */,
 				07773CB02115C1E4002700CC /* NIMKitEmoticon.bundle */,
 				07773CB12115C1E4002700CC /* NIMKitResource.bundle */,
 			);
@@ -696,6 +755,16 @@
 			children = (
 				07773CCA2115CC3B002700CC /* IMRedPacketTipAttachment.h */,
 				07773CCB2115CC3B002700CC /* IMRedPacketTipAttachment.m */,
+				C2D32505212127AE005C27F7 /* IMSnapchatAttachment.h */,
+				C2D32506212127AE005C27F7 /* IMSnapchatAttachment.m */,
+				C2D32508212128BE005C27F7 /* IMJanKenPonAttachment.h */,
+				C2D32509212128BE005C27F7 /* IMJanKenPonAttachment.m */,
+				C2D3250B212129E8005C27F7 /* IMChartletAttachment.h */,
+				C2D3250C212129E8005C27F7 /* IMChartletAttachment.m */,
+				C2D3250E21212A75005C27F7 /* IMSWhiteboardAttachment.h */,
+				C2D3250F21212A75005C27F7 /* IMSWhiteboardAttachment.m */,
+				C2D3251121212B03005C27F7 /* IMRedPacketAttachment.h */,
+				C2D3251221212B03005C27F7 /* IMRedPacketAttachment.m */,
 			);
 			path = Attach;
 			sourceTree = "<group>";
@@ -767,6 +836,11 @@
 			children = (
 				07773D3A2115DE36002700CC /* NIMCellConfig.h */,
 				07773D5E2116D0E3002700CC /* NIMKitDataProvider.h */,
+				C2D3251421215189005C27F7 /* NIMSessionConfig.h */,
+				C2D325152121526B005C27F7 /* NIMKitMessageProvider.h */,
+				C2D32516212153BF005C27F7 /* NIMInputBarItemType.h */,
+				C2B029832123CC1300282E72 /* NIMMessageCellProtocol.h */,
+				C2B0298A2123DD7900282E72 /* NIMInputProtocol.h */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -824,7 +898,24 @@
 		07773D502116AC08002700CC /* Input */ = {
 			isa = PBXGroup;
 			children = (
+				C2B0299F212546C300282E72 /* GrowingTextView */,
 				07773D512116AC49002700CC /* NIMInputEmoticonDefine.h */,
+				C2D3251721215473005C27F7 /* NIMInputEmoticonManager.h */,
+				C2D3251821215473005C27F7 /* NIMInputEmoticonManager.m */,
+				C2B029842123D49F00282E72 /* NIMInputView.h */,
+				C2B029852123D49F00282E72 /* NIMInputView.m */,
+				C2B029872123D51400282E72 /* NIMInputMoreContainerView.h */,
+				C2B029882123D51400282E72 /* NIMInputMoreContainerView.m */,
+				C2B0298E21242E9300282E72 /* NIMInputEmoticonContainerView.h */,
+				C2B0298F21242E9300282E72 /* NIMInputEmoticonContainerView.m */,
+				C2B0299121242EDB00282E72 /* NIMInputEmoticonTabView.h */,
+				C2B0299221242EDB00282E72 /* NIMInputEmoticonTabView.m */,
+				C2B0299421250DEE00282E72 /* NIMInputEmoticonButton.h */,
+				C2B0299521250DEE00282E72 /* NIMInputEmoticonButton.m */,
+				C2B029992125230700282E72 /* NIMInputAtCache.h */,
+				C2B0299A2125230700282E72 /* NIMInputAtCache.m */,
+				C2B0299C2125254700282E72 /* NIMInputToolBar.h */,
+				C2B0299D2125254700282E72 /* NIMInputToolBar.m */,
 			);
 			path = Input;
 			sourceTree = "<group>";
@@ -864,6 +955,8 @@
 			children = (
 				07773D712117EFD3002700CC /* IMSessionListViewController.h */,
 				07773D722117EFD3002700CC /* IMSessionListViewController.m */,
+				C29CECA4212118CE007AAAB8 /* IMClientsTableViewController.h */,
+				C29CECA5212118CE007AAAB8 /* IMClientsTableViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -1176,6 +1269,8 @@
 				C2D8EDA6211D7202009E8BAD /* NIMAvatarImageView.m */,
 				C2D8EDAC211D88FD009E8BAD /* NIMBadgeView.h */,
 				C2D8EDAD211D88FD009E8BAD /* NIMBadgeView.m */,
+				C2B0298B2123DF8C00282E72 /* NIMPageView.h */,
+				C2B0298C2123DF8C00282E72 /* NIMPageView.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -1239,11 +1334,32 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		C2D8EDB2211EB48C009E8BAD /* Session */ = {
+		C2B0299F212546C300282E72 /* GrowingTextView */ = {
+			isa = PBXGroup;
+			children = (
+				C2B029A0212546E300282E72 /* NIMGrowingTextView.h */,
+				C2B029A1212546E300282E72 /* NIMGrowingTextView.m */,
+				C2B029A321254BC200282E72 /* NIMGrowingInternalTextView.h */,
+				C2B029A421254BC200282E72 /* NIMGrowingInternalTextView.m */,
+			);
+			path = GrowingTextView;
+			sourceTree = "<group>";
+		};
+		C2D3250121211E07005C27F7 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
 				C2D8EDB3211EB4C4009E8BAD /* IMSessionViewController.h */,
 				C2D8EDB4211EB4C4009E8BAD /* IMSessionViewController.m */,
+				C2D3250221211E33005C27F7 /* IMSessionPeekNavigationViewController.h */,
+				C2D3250321211E33005C27F7 /* IMSessionPeekNavigationViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C2D8EDB2211EB48C009E8BAD /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				C2D3250121211E07005C27F7 /* ViewController */,
 			);
 			path = Session;
 			sourceTree = "<group>";
@@ -1400,7 +1516,6 @@
 				07773DB7211816E3002700CC /* JResource.bundle in Resources */,
 				C2885F72211A9C0C00510115 /* IMMutiClientsCell.xib in Resources */,
 				07773C5C2115503F002700CC /* LaunchScreen.storyboard in Resources */,
-				07773C592115503F002700CC /* Assets.xcassets in Resources */,
 				07773CB32115C1E4002700CC /* NIMKitResource.bundle in Resources */,
 				07773CC32115C1FC002700CC /* video_chat_tip_onTimer.aac in Resources */,
 				07773DFF21184955002700CC /* IMRegisterViewController.xib in Resources */,
@@ -1422,6 +1537,7 @@
 				07773DE921182D37002700CC /* Settings.bundle in Resources */,
 				07773C572115503E002700CC /* Main.storyboard in Resources */,
 				07773E13211992C6002700CC /* IMLogViewController.xib in Resources */,
+				C2B0299821251B5D00282E72 /* NIMDemoChartlet.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1503,13 +1619,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				07773D412115EF29002700CC /* NIMCellLayoutConfig.m in Sources */,
+				C2B0299E2125254700282E72 /* NIMInputToolBar.m in Sources */,
 				07773E212119A401002700CC /* IMDemoFetchChatroomTask.m in Sources */,
 				07773E1621199566002700CC /* NSString+IM.m in Sources */,
+				C2B029892123D51400282E72 /* NIMInputMoreContainerView.m in Sources */,
 				07773D772117F4C4002700CC /* IMContactViewController.m in Sources */,
 				C2D8EDBE211EB781009E8BAD /* NIMCommonTableData.m in Sources */,
 				C2D8EDAB211D7773009E8BAD /* UIView+NIMKit.m in Sources */,
 				07773DF02118370E002700CC /* IMLoginManager.m in Sources */,
+				C2D3250A212128BE005C27F7 /* IMJanKenPonAttachment.m in Sources */,
 				C2885F7E211AC60600510115 /* NIMKitUtil.m in Sources */,
+				C2D3251021212A75005C27F7 /* IMSWhiteboardAttachment.m in Sources */,
 				07773E2A2119A623002700CC /* IMDemoService.m in Sources */,
 				C2885F5F211A922D00510115 /* NIMKitNoticationFire.m in Sources */,
 				07773DE42118212E002700CC /* IMSDKConfigDelegate.m in Sources */,
@@ -1520,9 +1640,13 @@
 				07773D7B2117F58E002700CC /* IMChatroomListViewController.m in Sources */,
 				C2885F64211A976300510115 /* IMListHeader.m in Sources */,
 				07773E0B211991D6002700CC /* IMLogManager.m in Sources */,
+				C2D32507212127AE005C27F7 /* IMSnapchatAttachment.m in Sources */,
 				07773E272119A50F002700CC /* IMChatroomMaker.m in Sources */,
 				07773D732117EFD3002700CC /* IMSessionListViewController.m in Sources */,
+				C2B0299321242EDB00282E72 /* NIMInputEmoticonTabView.m in Sources */,
 				07773CA521159D10002700CC /* IMCustomNotificationObject.m in Sources */,
+				C2B029862123D49F00282E72 /* NIMInputView.m in Sources */,
+				C2D3250D212129E8005C27F7 /* IMChartletAttachment.m in Sources */,
 				07773CC72115C386002700CC /* IMAVNotifier.m in Sources */,
 				07773CAE2115C00F002700CC /* IMNotificationCenter.m in Sources */,
 				07773D7F2117F98D002700CC /* IMSettingViewController.m in Sources */,
@@ -1533,14 +1657,20 @@
 				C2D8EDA7211D7202009E8BAD /* NIMAvatarImageView.m in Sources */,
 				C2885F7B211AC4E900510115 /* NIMSessionListViewController.m in Sources */,
 				C2D8EDBA211EB601009E8BAD /* IMRobotCardViewController.m in Sources */,
+				C2B0299021242E9300282E72 /* NIMInputEmoticonContainerView.m in Sources */,
 				07773C8721155650002700CC /* IMMainTabController.m in Sources */,
+				C2B0298D2123DF8C00282E72 /* NIMPageView.m in Sources */,
 				07773DFE21184955002700CC /* IMRegisterViewController.m in Sources */,
 				07773D5A2116BCD9002700CC /* NIMkitConfig.m in Sources */,
 				07773D5D2116C448002700CC /* NIMMediaItem.m in Sources */,
 				07773D642117007E002700CC /* NIMKitIndependentModeExtraInfo.m in Sources */,
+				C2B0299B2125230700282E72 /* NIMInputAtCache.m in Sources */,
+				C29CECA6212118CE007AAAB8 /* IMClientsTableViewController.m in Sources */,
+				C2B0299621250DEE00282E72 /* NIMInputEmoticonButton.m in Sources */,
 				07773C9D211562DC002700CC /* IMService.m in Sources */,
 				07773E1E2119A207002700CC /* NSDictionary+IMJson.m in Sources */,
 				C2D8EDCF211EC488009E8BAD /* IMSubscribeManager.m in Sources */,
+				C2D3251321212B03005C27F7 /* IMRedPacketAttachment.m in Sources */,
 				07773E2D2119D8D6002700CC /* IMClientUtil.m in Sources */,
 				07773D4B2116A831002700CC /* NIMKitSetting.m in Sources */,
 				07773CA121158469002700CC /* IMCustomNotificationDB.m in Sources */,
@@ -1553,15 +1683,19 @@
 				C2885F77211AC3E400510115 /* NIMSessionViewController.m in Sources */,
 				C2D8EDB1211D899C009E8BAD /* NSString+NIMKit.m in Sources */,
 				07773DEC21183129002700CC /* IMDemoConfig.m in Sources */,
+				C2D3251921215473005C27F7 /* NIMInputEmoticonManager.m in Sources */,
 				07773D4F2116AA5C002700CC /* UIImage+NIMKit.m in Sources */,
 				07773CCC2115CC3B002700CC /* IMRedPacketTipAttachment.m in Sources */,
 				C2885F71211A9C0C00510115 /* IMMutiClientsCell.m in Sources */,
 				C2885F5B211A908100510115 /* NIMKitTimerholder.m in Sources */,
+				C2B029A521254BC200282E72 /* NIMGrowingInternalTextView.m in Sources */,
+				C2D3250421211E33005C27F7 /* IMSessionPeekNavigationViewController.m in Sources */,
 				C2885F6B211A9B9800510115 /* IMMutliClientsHeaderView.m in Sources */,
 				C2D8EDCA211EC03A009E8BAD /* IMDevice.m in Sources */,
 				07773E0621199031002700CC /* UIActionSheet+IMBlock.m in Sources */,
 				07773D3E2115E1C7002700CC /* NIMMessageModel.m in Sources */,
 				C2D8EDD2211EC555009E8BAD /* NIMExtensionHelper.m in Sources */,
+				C2B029A2212546E300282E72 /* NIMGrowingTextView.m in Sources */,
 				07773C512115503E002700CC /* AppDelegate.m in Sources */,
 				C2D8EDC4211EB88D009E8BAD /* IMColorButtonnCell.m in Sources */,
 				07773D442115F10B002700CC /* NIMKitInfo.m in Sources */,
@@ -1754,6 +1888,7 @@
 			baseConfigurationReference = D7857636BB46479E857CA6E2 /* Pods-IMNIMDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G6VWZP43FN;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1776,7 +1911,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.songlin.www.IMNIMDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1785,6 +1920,7 @@
 			baseConfigurationReference = 2C4D8AA08258784E98C44423 /* Pods-IMNIMDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G6VWZP43FN;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1807,7 +1943,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.songlin.www.IMNIMDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

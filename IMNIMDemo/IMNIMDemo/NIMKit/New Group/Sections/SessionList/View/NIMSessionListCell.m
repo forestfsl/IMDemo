@@ -76,25 +76,25 @@
 {
     [super layoutSubviews];
     //Session List
-    NSInteger sessionListAvatarLeft = 15;
-    NSInteger sessionListNameTop = 15;
-    NSInteger sessionListNameLeftToAvatar = 15;
-    NSInteger sessionListMessageLeftToAvatar = 15;
-    NSInteger sessionListMessageBottom = 15;
-    NSInteger sessionListTimeRight = 15;
-    NSInteger sessionListTimeTop = 15;
-    NSInteger sessionBadgeTimeBottom = 15;
-    NSInteger sessionBadgeTimeRight = 15;
+    NSInteger sessionListAvatarLeft             = 15;
+    NSInteger sessionListNameTop                = 15;
+    NSInteger sessionListNameLeftToAvatar       = 15;
+    NSInteger sessionListMessageLeftToAvatar    = 15;
+    NSInteger sessionListMessageBottom          = 15;
+    NSInteger sessionListTimeRight              = 15;
+    NSInteger sessionListTimeTop                = 15;
+    NSInteger sessionBadgeTimeBottom            = 15;
+    NSInteger sessionBadgeTimeRight             = 15;
     
-    _avatarImageView.nim_left = sessionListAvatarLeft;
+    _avatarImageView.nim_left    = sessionListAvatarLeft;
     _avatarImageView.nim_centerY = self.nim_height * .5f;
-    _nameLabel.nim_top = sessionListNameTop;
-    _nameLabel.nim_left = _avatarImageView.nim_right + sessionListNameLeftToAvatar;
-    _messageLabel.nim_left = _avatarImageView.nim_right + sessionListMessageLeftToAvatar;
-    _messageLabel.nim_bottom = self.nim_height - sessionListMessageBottom;
-    _timeLabel.nim_right = self.nim_width - sessionListTimeRight;
-    _timeLabel.nim_top = sessionListTimeTop;
-    _badgeView.nim_right = self.nim_width - sessionBadgeTimeRight;
-    _badgeView.nim_bottom = self.nim_height - sessionBadgeTimeBottom;
+    _nameLabel.nim_top           = sessionListNameTop;
+    _nameLabel.nim_left          = _avatarImageView.nim_right + sessionListNameLeftToAvatar;
+    _messageLabel.nim_left       = _avatarImageView.nim_right + sessionListMessageLeftToAvatar;
+    _messageLabel.nim_bottom     = self.nim_height - sessionListMessageBottom;
+    _timeLabel.nim_right         = self.nim_width - sessionListTimeRight;
+    _timeLabel.nim_top           = sessionListTimeTop;
+    _badgeView.nim_right         = self.nim_width - sessionBadgeTimeRight;
+    _badgeView.nim_bottom        = self.nim_height - sessionBadgeTimeBottom;
 }
 @end

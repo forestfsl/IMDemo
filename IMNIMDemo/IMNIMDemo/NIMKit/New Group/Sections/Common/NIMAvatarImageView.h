@@ -10,23 +10,16 @@
 #import <NIMSDK/NIMSDK.h>
 #import "NIMKitDependency.h"
 
-
-NS_ASSUME_NONNULL_BEGIN
-
 @interface NIMAvatarImageView : UIControl
-
-@property (nonatomic, strong) UIImage *image;
-@property (nonatomic, assign) CGFloat cornerRadius;
+@property (nonatomic,strong)    UIImage *image;
+@property (nonatomic,assign)    CGFloat cornerRadius;
 
 - (void)setAvatarBySession:(NIMSession *)session;
 - (void)setAvatarByMessage:(NIMMessage *)message;
-
-
 @end
 
 
-
-@interface NIMAvatarImageView (SDWebImageCaghe)
+@interface NIMAvatarImageView (SDWebImageCache)
 - (NSURL *)nim_imageURL;
 
 - (void)nim_setImageWithURL:(NSURL *)url;
@@ -40,9 +33,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)nim_cancelCurrentImageLoad;
 - (void)nim_cancelCurrentAnimationImagesLoad;
 
-
-
 @end
 
 
-NS_ASSUME_NONNULL_END
+
